@@ -1,0 +1,20 @@
+name: Baixar imagens candidatas
+on:
+  push:
+    branches: [imagens]
+    paths: [imagens/candidatas.json, imagens/baixar.mjs]
+permissions:
+  contents: write
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node imagens/baixar.mjs
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add imagens/candidatas imagens/creditos.json
+          git commit -m "Candidatas baixadas [skip ci]" && git push
