@@ -1,402 +1,583 @@
 [
  {
-  "key": "r_red1",
-  "id": "6BRPTM0UZs0",
-  "page": "https://unsplash.com/photos/intricate-silver-rings-adorned-with-small-red-gemstones-6BRPTM0UZs0"
- },
- {
-  "key": "r_red2",
-  "id": "mjr5izNMxc8",
-  "page": "https://unsplash.com/photos/mjr5izNMxc8"
- },
- {
-  "key": "r_red3",
-  "id": "g2aX18GgTT4",
-  "page": "https://unsplash.com/photos/silver-and-red-gemstone-ring-g2aX18GgTT4"
- },
- {
-  "key": "r_box",
-  "id": "X1504kwZTnI",
-  "page": "https://unsplash.com/photos/silver-colored-ring-in-red-box-X1504kwZTnI"
- },
- {
-  "key": "r_stone2",
-  "id": "PTInh1bi4ik",
-  "page": "https://unsplash.com/photos/two-silver-colored-rings-on-stone-PTInh1bi4ik"
- },
- {
-  "key": "r_hand1",
-  "id": "lDoOtrFubEM",
-  "page": "https://unsplash.com/photos/person-wearing-two-silver-colored-rings-on-left-fingers-lDoOtrFubEM"
- },
- {
-  "key": "r_hand2",
-  "id": "RCxwlB0nuDE",
-  "page": "https://unsplash.com/photos/a-persons-hand-with-two-rings-on-it-RCxwlB0nuDE"
- },
- {
-  "key": "r_multi",
-  "id": "H7npX8o4Fws",
-  "page": "https://unsplash.com/photos/person-wearing-multiple-silver-rings-and-layered-necklaces-H7npX8o4Fws"
- },
- {
-  "key": "r_band2",
-  "id": "xD_XnntwCw0",
-  "page": "https://unsplash.com/photos/xD_XnntwCw0"
- },
- {
-  "key": "r_bandhand",
-  "id": "LThqAPBpqtI",
-  "page": "https://unsplash.com/photos/LThqAPBpqtI"
- },
- {
-  "key": "r_black",
-  "id": "jKZdHpGFpjc",
-  "page": "https://unsplash.com/photos/a-silver-ring-with-a-black-background-jKZdHpGFpjc"
- },
- {
-  "key": "r_whitedia",
+  "key": "c00",
   "id": "kuko1hX_kXw",
-  "page": "https://unsplash.com/photos/silver-diamond-ring-on-white-surface-kuko1hX_kXw"
+  "src": "https://images.unsplash.com/photo-1589674781759-c21c37956a44",
+  "alt": "silver diamond ring on white surface",
+  "page": "https://unsplash.com/photos/kuko1hX_kXw"
  },
  {
-  "key": "r_rings",
+  "key": "c01",
   "id": "Zyp3t67rrP4",
-  "page": "https://unsplash.com/photos/silver-colored-rings-Zyp3t67rrP4"
+  "src": "https://images.unsplash.com/photo-1550368566-f9cc32d7392d",
+  "alt": "silver-colored rings",
+  "page": "https://unsplash.com/photos/Zyp3t67rrP4"
  },
  {
-  "key": "r_hand3",
+  "key": "c02",
   "id": "e46hyCWI73c",
-  "page": "https://unsplash.com/photos/a-persons-hand-with-a-ring-on-it-e46hyCWI73c"
+  "src": "https://images.unsplash.com/photo-1612239396116-4da3087f8f79",
+  "alt": "a person's hand with a ring on it",
+  "page": "https://unsplash.com/photos/e46hyCWI73c"
  },
  {
-  "key": "r_wood",
+  "key": "c03",
   "id": "UDrb3Bud44Y",
-  "page": "https://unsplash.com/photos/silver-ring-on-brown-wooden-table-UDrb3Bud44Y"
+  "src": "https://images.unsplash.com/photo-1620968867360-5cda83d2bffd",
+  "alt": "silver ring on brown wooden table",
+  "page": "https://unsplash.com/photos/UDrb3Bud44Y"
  },
  {
-  "key": "r_diablack",
+  "key": "c04",
   "id": "99Kn46xpr-Y",
-  "page": "https://unsplash.com/photos/a-diamond-ring-on-a-black-surface-99Kn46xpr-Y"
+  "src": "https://images.unsplash.com/photo-1679156271420-e6c596e9c10a",
+  "alt": "a diamond ring on a black surface",
+  "page": "https://unsplash.com/photos/99Kn46xpr-Y"
  },
  {
-  "key": "r_redtex",
+  "key": "c05",
   "id": "q_sPpAv0MXE",
-  "page": "https://unsplash.com/photos/silver-diamond-ring-on-red-textile-q_sPpAv0MXE"
+  "src": "https://images.unsplash.com/photo-1613945407943-59cd755fd69e",
+  "alt": "silver diamond ring on red textile",
+  "page": "https://unsplash.com/photos/q_sPpAv0MXE"
  },
  {
-  "key": "r_two",
+  "key": "c06",
   "id": "W6s6eJc0CTY",
-  "page": "https://unsplash.com/photos/two-silver-colored-r-W6s6eJc0CTY"
+  "src": "https://images.unsplash.com/photo-1565206077209-0e7e57b6c152",
+  "alt": "two silver-colored rings",
+  "page": "https://unsplash.com/photos/W6s6eJc0CTY"
  },
  {
-  "key": "r_single",
-  "id": "jAdtyxPDmvU",
-  "page": "https://unsplash.com/photos/silver-colored-ring-jAdtyxPDmvU"
- },
- {
-  "key": "r_closeup",
-  "id": "kXrFj0HCn14",
-  "page": "https://unsplash.com/photos/a-close-up-of-a-ring-kXrFj0HCn14"
- },
- {
-  "key": "r_studblack",
-  "id": "FsuqRsukQRA",
-  "page": "https://unsplash.com/photos/silver-diamond-studded-ring-on-black-surface-FsuqRsukQRA"
- },
- {
-  "key": "r_studded",
-  "id": "MGiYQcv_BX4",
-  "page": "https://unsplash.com/photos/silver-and-diamond-studded-ring-MGiYQcv_BX4"
- },
- {
-  "key": "r_blacktex",
-  "id": "B9Jo-V2kpOg",
-  "page": "https://unsplash.com/photos/silver-ring-on-black-textile-B9Jo-V2kpOg"
- },
- {
-  "key": "r_gembox",
-  "id": "3_YP8_mh-Kg",
-  "page": "https://unsplash.com/photos/silver-colored-ring-with-gemstone-in-a-box-3_YP8_mh-Kg"
- },
- {
-  "key": "r_handsdia",
-  "id": "S6DGTbwO7tw",
-  "page": "https://unsplash.com/photos/womans-hands-adorned-with-sparkling-diamond-rings-S6DGTbwO7tw"
- },
- {
-  "key": "r_table",
-  "id": "d5qU27rehlk",
-  "page": "https://unsplash.com/photos/a-couple-of-rings-that-are-sitting-on-a-table-d5qU27rehlk"
- },
- {
-  "key": "r_arz",
-  "id": "aRZiiB-NIWE",
-  "page": "https://unsplash.com/photos/silver-colored-ring-aRZiiB-NIWE"
- },
- {
-  "key": "r_5jg",
-  "id": "5JgjeQzzftU",
-  "page": "https://unsplash.com/photos/5JgjeQzzftU"
- },
- {
-  "key": "n_heart1",
-  "id": "AhIQL2CKq7g",
-  "page": "https://unsplash.com/photos/silver-necklace-with-heart-pendant-AhIQL2CKq7g"
- },
- {
-  "key": "n_heart2",
-  "id": "U5_VQMy4Z8I",
-  "page": "https://unsplash.com/photos/a-silver-heart-necklace-on-a-white-background-U5_VQMy4Z8I"
- },
- {
-  "key": "n_heart3",
-  "id": "prIIgtd4O6A",
-  "page": "https://unsplash.com/photos/a-heart-shaped-pendant-on-a-black-background-prIIgtd4O6A"
- },
- {
-  "key": "n_heart4",
-  "id": "fBmFplfbCQg",
-  "page": "https://unsplash.com/photos/fBmFplfbCQg"
- },
- {
-  "key": "n_heart5",
-  "id": "ZoDgJpXzDB8",
-  "page": "https://unsplash.com/photos/ZoDgJpXzDB8"
- },
- {
-  "key": "n_heartblack",
-  "id": "Q_bHwNAueHA",
-  "page": "https://unsplash.com/photos/a-silver-heart-necklace-on-a-black-surface-Q_bHwNAueHA"
- },
- {
-  "key": "n_pend1",
-  "id": "-1aE4Kpy-Qc",
-  "page": "https://unsplash.com/photos/silver-colored-necklace-with-pendant--1aE4Kpy-Qc"
- },
- {
-  "key": "n_round",
-  "id": "xUa-iq0cvjk",
-  "page": "https://unsplash.com/photos/round-silver-colored-pendant-necklace-xUa-iq0cvjk"
- },
- {
-  "key": "n_cross",
-  "id": "nitRpYTkFXk",
-  "page": "https://unsplash.com/photos/silver-and-diamond-studded-cross-pendant-necklace-nitRpYTkFXk"
- },
- {
-  "key": "n_blue",
-  "id": "SniDFooLoow",
-  "page": "https://unsplash.com/photos/SniDFooLoow"
- },
- {
-  "key": "n_bw",
-  "id": "H2ZnZ5YOJW8",
-  "page": "https://unsplash.com/photos/a-black-and-white-photo-of-a-necklace-H2ZnZ5YOJW8"
- },
- {
-  "key": "n_set",
-  "id": "1jLJ37qTbkw",
-  "page": "https://unsplash.com/photos/a-necklace-and-earring-set-on-display-1jLJ37qTbkw"
- },
- {
-  "key": "n_table",
-  "id": "Zl_jomkCYGI",
-  "page": "https://unsplash.com/photos/a-close-up-of-a-necklace-on-a-table-Zl_jomkCYGI"
- },
- {
-  "key": "n_chainblack",
-  "id": "zABqgk2tIoE",
-  "page": "https://unsplash.com/photos/a-silver-chain-on-a-black-background-zABqgk2tIoE"
- },
- {
-  "key": "n_ringpend",
-  "id": "jKvwtbrxzdY",
-  "page": "https://unsplash.com/photos/silver-colored-ring-pendant-jKvwtbrxzdY"
- },
- {
-  "key": "b_chain",
-  "id": "aW6unMK5l2E",
-  "page": "https://unsplash.com/photos/silver-chain-link-bracelet-on-white-surface-aW6unMK5l2E"
- },
- {
-  "key": "b_heart",
-  "id": "nMvAcGHF0iQ",
-  "page": "https://unsplash.com/photos/a-silver-bracelet-with-a-heart-on-it-nMvAcGHF0iQ"
- },
- {
-  "key": "b_diablack",
-  "id": "10eeEq7OxSI",
-  "page": "https://unsplash.com/photos/a-diamond-bracelet-on-a-black-background-10eeEq7OxSI"
- },
- {
-  "key": "b_heartred",
-  "id": "mkqraXkMPSE",
-  "page": "https://unsplash.com/photos/a-silver-bracelet-with-hearts-and-two-red-stones-mkqraXkMPSE"
- },
- {
-  "key": "b_heartcharm",
-  "id": "-qmsoFRCnkA",
-  "page": "https://unsplash.com/photos/a-silver-bracelet-with-a-heart-charm--qmsoFRCnkA"
- },
- {
-  "key": "b_heartpink",
-  "id": "yctbxRAubvQ",
-  "page": "https://unsplash.com/photos/a-silver-bracelet-with-hearts-and-pink-stones-yctbxRAubvQ"
- },
- {
-  "key": "b_closeup",
-  "id": "YXLDZaa1an8",
-  "page": "https://unsplash.com/photos/a-close-up-of-a-bracelet-YXLDZaa1an8"
- },
- {
-  "key": "b_three",
-  "id": "l9WWRFzkR9o",
-  "page": "https://unsplash.com/photos/a-silver-bracelet-with-three-hearts-and-a-pink-stone-l9WWRFzkR9o"
- },
- {
-  "key": "b_arms",
-  "id": "8B3N5nuoUA4",
-  "page": "https://unsplash.com/photos/two-arms-adorned-with-delicate-silver-bracelets-8B3N5nuoUA4"
- },
- {
-  "key": "b_wrist",
-  "id": "oU9AqrQf07c",
-  "page": "https://unsplash.com/photos/a-silver-bracelet-adorns-a-persons-wrist-oU9AqrQf07c"
- },
- {
-  "key": "b_hand",
-  "id": "XjUcH6oTWCQ",
-  "page": "https://unsplash.com/photos/a-womans-hand-with-a-bracelet-on-it-XjUcH6oTWCQ"
- },
- {
-  "key": "b_diawrist",
-  "id": "yc8hHj3KqXA",
-  "page": "https://unsplash.com/photos/a-diamond-bracelet-on-a-womans-wrist-yc8hHj3KqXA"
- },
- {
-  "key": "b_pearl",
-  "id": "pQMI1YanRuE",
-  "page": "https://unsplash.com/photos/silver-and-white-beaded-bracelet-pQMI1YanRuE"
- },
- {
-  "key": "b_cuff1",
-  "id": "87iLRaZlyjg",
-  "page": "https://unsplash.com/photos/person-wearing-silver-colored-bracelet-87iLRaZlyjg"
- },
- {
-  "key": "b_cuff2",
-  "id": "JfRNZGm8YGM",
-  "page": "https://unsplash.com/photos/person-wearing-silver-bracelet-and-bracelet-JfRNZGm8YGM"
- },
- {
-  "key": "b_gems",
-  "id": "1MWbwTaeJIA",
-  "page": "https://unsplash.com/photos/silver-colored-accessory-with-clear-gemstones-on-black-surface-1MWbwTaeJIA"
- },
- {
-  "key": "a_silver",
-  "id": "w-QWfFDR8Jo",
-  "page": "https://unsplash.com/photos/silver-colored-bracelet-w-QWfFDR8Jo"
- },
- {
-  "key": "a_bw",
-  "id": "f8PAWazrRWI",
-  "page": "https://unsplash.com/photos/a-black-and-white-photo-of-a-persons-foot-wearing-a-bracelet-f8PAWazrRWI"
- },
- {
-  "key": "a_ocean",
-  "id": "j6DJDQVKvqY",
-  "page": "https://unsplash.com/photos/bare-feet-with-anklet-in-shallow-ocean-water-j6DJDQVKvqY"
- },
- {
-  "key": "a_yellow",
-  "id": "WN64Lq56gqY",
-  "page": "https://unsplash.com/photos/womans-feet-with-yellow-toenails-and-anklet-WN64Lq56gqY"
- },
- {
-  "key": "e_hoopswhite",
-  "id": "i8lhklBB-CY",
-  "page": "https://unsplash.com/photos/a-pair-of-silver-hoop-earrings-on-a-white-background-i8lhklBB-CY"
- },
- {
-  "key": "e_hoopwoman",
-  "id": "1e7e9PorPVU",
-  "page": "https://unsplash.com/photos/woman-wearing-silver-hoop-earrings-1e7e9PorPVU"
- },
- {
-  "key": "e_threehook",
-  "id": "UZFnEbvwkzE",
-  "page": "https://unsplash.com/photos/three-pairs-of-silver-hook-earrings-UZFnEbvwkzE"
- },
- {
-  "key": "e_silver",
-  "id": "AVJ321HJFl4",
-  "page": "https://unsplash.com/photos/silver-colored-earrings-AVJ321HJFl4"
- },
- {
-  "key": "e_pairlot",
-  "id": "GKbfUFna-9I",
-  "page": "https://unsplash.com/photos/GKbfUFna-9I"
- },
- {
-  "key": "e_flower",
-  "id": "p6fB9zPKKzg",
-  "page": "https://unsplash.com/photos/p6fB9zPKKzg"
- },
- {
-  "key": "e_blackcloth",
-  "id": "-_12be3InkQ",
-  "page": "https://unsplash.com/photos/a-pair-of-earrings-sitting-on-top-of-a-black-cloth--_12be3InkQ"
- },
- {
-  "key": "e_diastand",
-  "id": "N2n0VR-jdJ0",
-  "page": "https://unsplash.com/photos/two-sparkling-diamond-earrings-hanging-from-a-black-stand-N2n0VR-jdJ0"
- },
- {
-  "key": "e_whitecloth",
-  "id": "kKAb6gkBnrw",
-  "page": "https://unsplash.com/photos/a-pair-of-earrings-sitting-on-top-of-a-white-cloth-kKAb6gkBnrw"
- },
- {
-  "key": "e_blackbg",
-  "id": "RIqNLZ_h2X8",
-  "page": "https://unsplash.com/photos/a-pair-of-earrings-on-a-black-background-RIqNLZ_h2X8"
- },
- {
-  "key": "e_stud",
-  "id": "GFI1sRmDaCs",
-  "page": "https://unsplash.com/photos/woman-wearing-silver-diamond-stud-earring-GFI1sRmDaCs"
- },
- {
-  "key": "e_wear",
-  "id": "mbSmroQl_V0",
-  "page": "https://unsplash.com/photos/a-close-up-of-a-person-wearing-a-pair-of-earrings-mbSmroQl_V0"
- },
- {
-  "key": "g_hoopsdia",
-  "id": "Jdc5_dKmhuk",
-  "page": "https://unsplash.com/photos/gold-hoop-earrings-with-diamonds-on-white-satin-Jdc5_dKmhuk"
- },
- {
-  "key": "g_ringwoman",
+  "key": "c07",
   "id": "EKpTsX6lwdA",
-  "page": "https://unsplash.com/photos/woman-in-white-v-neck-shirt-wearing-gold-ring-EKpTsX6lwdA"
+  "src": "https://images.unsplash.com/photo-1601244732063-bcaac519db4f",
+  "alt": "woman wearing gold ring",
+  "page": "https://unsplash.com/photos/EKpTsX6lwdA"
  },
  {
-  "key": "g_silverrings",
-  "id": "oWFPDjxuyUM",
-  "page": "https://unsplash.com/photos/gold-and-silver-rings-on-pink-and-white-striped-textile-oWFPDjxuyUM"
+  "key": "c08",
+  "id": "jAdtyxPDmvU",
+  "src": "https://images.unsplash.com/photo-1561995734-ef4b62bb6586",
+  "alt": "silver-colored ring",
+  "page": "https://unsplash.com/photos/jAdtyxPDmvU"
  },
  {
-  "key": "g_handscolor",
-  "id": "6EDKscuSvmQ",
-  "page": "https://unsplash.com/photos/womans-hands-adorned-with-colorful-rings-and-jewelry-6EDKscuSvmQ"
+  "key": "c09",
+  "id": "WkgJjFcRleQ",
+  "src": "https://images.unsplash.com/photo-1590703160323-ac5d3fc14089",
+  "alt": "silver and diamond ring on white surface",
+  "page": "https://unsplash.com/photos/WkgJjFcRleQ"
  },
  {
-  "key": "g_handsbag",
+  "key": "c10",
+  "id": "kXrFj0HCn14",
+  "src": "https://images.unsplash.com/photo-1656010280162-772358d9f4ed",
+  "alt": "a close-up of a ring",
+  "page": "https://unsplash.com/photos/kXrFj0HCn14"
+ },
+ {
+  "key": "c11",
+  "id": "FsuqRsukQRA",
+  "src": "https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400",
+  "alt": "silver diamond studded ring on black surface",
+  "page": "https://unsplash.com/photos/FsuqRsukQRA"
+ },
+ {
+  "key": "c12",
+  "id": "-w_1-mvkfUA",
+  "src": "https://images.unsplash.com/photo-1548649551-34b3862657b3",
+  "alt": "silver-colored ring",
+  "page": "https://unsplash.com/photos/-w_1-mvkfUA"
+ },
+ {
+  "key": "c13",
+  "id": "B9Jo-V2kpOg",
+  "src": "https://images.unsplash.com/photo-1593295583578-fda964d48b72",
+  "alt": "silver ring on black textile",
+  "page": "https://unsplash.com/photos/B9Jo-V2kpOg"
+ },
+ {
+  "key": "c14",
+  "id": "MGiYQcv_BX4",
+  "src": "https://images.unsplash.com/photo-1590703160416-5b17d229e381",
+  "alt": "silver and diamond studded ring",
+  "page": "https://unsplash.com/photos/MGiYQcv_BX4"
+ },
+ {
+  "key": "c15",
+  "id": "FMk8NacWplQ",
+  "src": "https://images.unsplash.com/photo-1676329945867-01c9975aa9d1",
+  "alt": "silver necklace with green beads",
+  "page": "https://unsplash.com/photos/FMk8NacWplQ"
+ },
+ {
+  "key": "c16",
+  "id": "AhIQL2CKq7g",
+  "src": "https://images.unsplash.com/photo-1588444968576-f8fe92ce56fd",
+  "alt": "silver necklace with heart pendant",
+  "page": "https://unsplash.com/photos/AhIQL2CKq7g"
+ },
+ {
+  "key": "c17",
+  "id": "U5_VQMy4Z8I",
+  "src": "https://images.unsplash.com/photo-1676329947145-99145926d3eb",
+  "alt": "silver heart necklace on white",
+  "page": "https://unsplash.com/photos/U5_VQMy4Z8I"
+ },
+ {
+  "key": "c18",
+  "id": "aW6unMK5l2E",
+  "src": "https://images.unsplash.com/photo-1605884878538-6468614df578",
+  "alt": "silver chain link bracelet on white",
+  "page": "https://unsplash.com/photos/aW6unMK5l2E"
+ },
+ {
+  "key": "c19",
+  "id": "prIIgtd4O6A",
+  "src": "https://images.unsplash.com/photo-1623449634301-5ef15c0ad98e",
+  "alt": "heart shaped pendant on black",
+  "page": "https://unsplash.com/photos/prIIgtd4O6A"
+ },
+ {
+  "key": "c20",
+  "id": "H2ZnZ5YOJW8",
+  "src": "https://images.unsplash.com/photo-1696533700445-9cc60ac4a651",
+  "alt": "black and white necklace",
+  "page": "https://unsplash.com/photos/H2ZnZ5YOJW8"
+ },
+ {
+  "key": "c21",
+  "id": "1jLJ37qTbkw",
+  "src": "https://images.unsplash.com/photo-1739194806935-3b4c66aee282",
+  "alt": "necklace and earring set on display",
+  "page": "https://unsplash.com/photos/1jLJ37qTbkw"
+ },
+ {
+  "key": "c22",
+  "id": "UdouAVWjMHQ",
+  "src": "https://images.unsplash.com/photo-1625627796701-e3c0911b89f3",
+  "alt": "silver beaded necklace on black textile",
+  "page": "https://unsplash.com/photos/UdouAVWjMHQ"
+ },
+ {
+  "key": "c23",
+  "id": "Zl_jomkCYGI",
+  "src": "https://images.unsplash.com/photo-1631832723559-f22a6381f3bc",
+  "alt": "close up of a necklace on a table",
+  "page": "https://unsplash.com/photos/Zl_jomkCYGI"
+ },
+ {
+  "key": "c24",
+  "id": "XjUcH6oTWCQ",
+  "src": "https://images.unsplash.com/photo-1721103428054-6bcf4f655594",
+  "alt": "woman's hand with a bracelet",
+  "page": "https://unsplash.com/photos/XjUcH6oTWCQ"
+ },
+ {
+  "key": "c25",
+  "id": "nMvAcGHF0iQ",
+  "src": "https://images.unsplash.com/photo-1676120963306-8969fa6a810e",
+  "alt": "silver bracelet with a heart",
+  "page": "https://unsplash.com/photos/nMvAcGHF0iQ"
+ },
+ {
+  "key": "c26",
+  "id": "10eeEq7OxSI",
+  "src": "https://images.unsplash.com/photo-1639065643006-e217c4fee12e",
+  "alt": "diamond bracelet on black",
+  "page": "https://unsplash.com/photos/10eeEq7OxSI"
+ },
+ {
+  "key": "c27",
+  "id": "mkqraXkMPSE",
+  "src": "https://images.unsplash.com/photo-1676291055501-286c48bb186f",
+  "alt": "silver bracelet hearts two red stones",
+  "page": "https://unsplash.com/photos/mkqraXkMPSE"
+ },
+ {
+  "key": "c28",
+  "id": "QhKfWrEBSYo",
+  "src": "https://images.unsplash.com/photo-1676120963358-be514060350b",
+  "alt": "bracelet with a heart",
+  "page": "https://unsplash.com/photos/QhKfWrEBSYo"
+ },
+ {
+  "key": "c29",
+  "id": "Q_bHwNAueHA",
+  "src": "https://images.unsplash.com/photo-1676485261309-784d67817972",
+  "alt": "silver heart necklace on black",
+  "page": "https://unsplash.com/photos/Q_bHwNAueHA"
+ },
+ {
+  "key": "c30",
+  "id": "-qmsoFRCnkA",
+  "src": "https://images.unsplash.com/photo-1676301086269-e29839fbd6f6",
+  "alt": "silver bracelet heart charm",
+  "page": "https://unsplash.com/photos/-qmsoFRCnkA"
+ },
+ {
+  "key": "c31",
+  "id": "yctbxRAubvQ",
+  "src": "https://images.unsplash.com/photo-1676296227404-9a7c32bb826d",
+  "alt": "silver bracelet hearts pink stones",
+  "page": "https://unsplash.com/photos/yctbxRAubvQ"
+ },
+ {
+  "key": "c32",
+  "id": "JRmm5RIg1xE",
+  "src": "https://images.unsplash.com/photo-1676301086281-e65f219c7f22",
+  "alt": "silver heart charm on silver chain",
+  "page": "https://unsplash.com/photos/JRmm5RIg1xE"
+ },
+ {
+  "key": "c33",
+  "id": "YXLDZaa1an8",
+  "src": "https://images.unsplash.com/photo-1651395835317-d2868e8ebcac",
+  "alt": "close up of a bracelet",
+  "page": "https://unsplash.com/photos/YXLDZaa1an8"
+ },
+ {
+  "key": "c34",
+  "id": "l9WWRFzkR9o",
+  "src": "https://images.unsplash.com/photo-1676291055477-2e05d7d3d833",
+  "alt": "silver bracelet three hearts pink stone",
+  "page": "https://unsplash.com/photos/l9WWRFzkR9o"
+ },
+ {
+  "key": "c35",
+  "id": "8B3N5nuoUA4",
+  "src": "https://images.unsplash.com/photo-1761222101900-9c9e34fac2ce",
+  "alt": "two arms delicate silver bracelets",
+  "page": "https://unsplash.com/photos/8B3N5nuoUA4"
+ },
+ {
+  "key": "c36",
+  "id": "oU9AqrQf07c",
+  "src": "https://images.unsplash.com/photo-1744722093742-aad22c7fa68b",
+  "alt": "silver bracelet on wrist",
+  "page": "https://unsplash.com/photos/oU9AqrQf07c"
+ },
+ {
+  "key": "c37",
+  "id": "1MWbwTaeJIA",
+  "src": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0",
+  "alt": "silver accessory clear gemstones on black",
+  "page": "https://unsplash.com/photos/1MWbwTaeJIA"
+ },
+ {
+  "key": "c38",
+  "id": "S6DGTbwO7tw",
+  "src": "https://images.unsplash.com/photo-1762505464529-1a37df13674f",
+  "alt": "hands with diamond rings",
+  "page": "https://unsplash.com/photos/S6DGTbwO7tw"
+ },
+ {
+  "key": "c39",
+  "id": "d5qU27rehlk",
+  "src": "https://images.unsplash.com/photo-1719924998065-0c60e329ef58",
+  "alt": "couple of rings on a table",
+  "page": "https://unsplash.com/photos/d5qU27rehlk"
+ },
+ {
+  "key": "c40",
+  "id": "jKvwtbrxzdY",
+  "src": "https://images.unsplash.com/photo-1511253819057-5408d4d70465",
+  "alt": "silver ring pendant",
+  "page": "https://unsplash.com/photos/jKvwtbrxzdY"
+ },
+ {
+  "key": "c41",
+  "id": "yc8hHj3KqXA",
+  "src": "https://images.unsplash.com/photo-1763029513623-37d488cb97b1",
+  "alt": "diamond bracelet on wrist",
+  "page": "https://unsplash.com/photos/yc8hHj3KqXA"
+ },
+ {
+  "key": "c42",
   "id": "6aZTH_X5pMg",
-  "page": "https://unsplash.com/photos/womans-hands-with-rings-and-bracelet-on-bag-6aZTH_X5pMg"
+  "src": "https://images.unsplash.com/photo-1761735489573-15b2d60280f5",
+  "alt": "hands with rings and bracelet on bag",
+  "page": "https://unsplash.com/photos/6aZTH_X5pMg"
+ },
+ {
+  "key": "c43",
+  "id": "mbSmroQl_V0",
+  "src": "https://images.unsplash.com/photo-1652766540048-de0a878a3266",
+  "alt": "person wearing earrings",
+  "page": "https://unsplash.com/photos/mbSmroQl_V0"
+ },
+ {
+  "key": "c44",
+  "id": "N2n0VR-jdJ0",
+  "src": "https://images.unsplash.com/photo-1782224743942-fbe4cdf2ce6b",
+  "alt": "diamond earrings on black stand",
+  "page": "https://unsplash.com/photos/N2n0VR-jdJ0"
+ },
+ {
+  "key": "c45",
+  "id": "-_12be3InkQ",
+  "src": "https://images.unsplash.com/photo-1693212793204-bcea856c75fe",
+  "alt": "earrings on black cloth",
+  "page": "https://unsplash.com/photos/-_12be3InkQ"
+ },
+ {
+  "key": "c46",
+  "id": "s9idT2PQUt4",
+  "src": "https://images.unsplash.com/photo-1671644730555-916aa8d8157f",
+  "alt": "person wearing earrings 2",
+  "page": "https://unsplash.com/photos/s9idT2PQUt4"
+ },
+ {
+  "key": "c47",
+  "id": "VJZdxfvFGuo",
+  "src": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908",
+  "alt": "silver earrings blue gemstone",
+  "page": "https://unsplash.com/photos/VJZdxfvFGuo"
+ },
+ {
+  "key": "c48",
+  "id": "GFI1sRmDaCs",
+  "src": "https://images.unsplash.com/photo-1621939745912-aad97fd3a34d",
+  "alt": "silver diamond stud earring",
+  "page": "https://unsplash.com/photos/GFI1sRmDaCs"
+ },
+ {
+  "key": "c49",
+  "id": "kKAb6gkBnrw",
+  "src": "https://images.unsplash.com/photo-1701777892770-df3bf8006fd8",
+  "alt": "earrings on white cloth",
+  "page": "https://unsplash.com/photos/kKAb6gkBnrw"
+ },
+ {
+  "key": "c50",
+  "id": "RIqNLZ_h2X8",
+  "src": "https://images.unsplash.com/photo-1693213085235-ea6deadf8cee",
+  "alt": "earrings on black background",
+  "page": "https://unsplash.com/photos/RIqNLZ_h2X8"
+ },
+ {
+  "key": "c51",
+  "id": "w-QWfFDR8Jo",
+  "src": "https://images.unsplash.com/photo-1548790176-f46bb4d5ef7f",
+  "alt": "silver-colored bracelet (anklet)",
+  "page": "https://unsplash.com/photos/w-QWfFDR8Jo"
+ },
+ {
+  "key": "c52",
+  "id": "f8PAWazrRWI",
+  "src": "https://images.unsplash.com/photo-1635770607507-beb7d7972491",
+  "alt": "foot wearing bracelet bw",
+  "page": "https://unsplash.com/photos/f8PAWazrRWI"
+ },
+ {
+  "key": "c53",
+  "id": "WN64Lq56gqY",
+  "src": "https://images.unsplash.com/photo-1764420068424-9f28e8df9ca5",
+  "alt": "feet with anklet",
+  "page": "https://unsplash.com/photos/WN64Lq56gqY"
+ },
+ {
+  "key": "c54",
+  "id": "LzD-4UNR5fU",
+  "src": "https://images.unsplash.com/photo-1760163287823-8786a65fd269",
+  "alt": "feet with henna and anklet",
+  "page": "https://unsplash.com/photos/LzD-4UNR5fU"
+ },
+ {
+  "key": "c55",
+  "id": "MdcoI4O9vus",
+  "src": "https://images.unsplash.com/photo-1686538246844-f3ca82434d95",
+  "alt": "hand with a ring close",
+  "page": "https://unsplash.com/photos/MdcoI4O9vus"
+ },
+ {
+  "key": "c56",
+  "id": "02JOGVZ5gKg",
+  "src": "https://images.unsplash.com/photo-1614606139674-30196557bac1",
+  "alt": "woman's hand with a ring",
+  "page": "https://unsplash.com/photos/02JOGVZ5gKg"
+ },
+ {
+  "key": "c57",
+  "id": "lk7s8i5NdqE",
+  "src": "https://images.unsplash.com/photo-1542990254-85e6a9a2ef92",
+  "alt": "hand with five rings",
+  "page": "https://unsplash.com/photos/lk7s8i5NdqE"
+ },
+ {
+  "key": "c58",
+  "id": "AtSx_v7YVjU",
+  "src": "https://images.unsplash.com/photo-1499224790938-c2518cab8b76",
+  "alt": "woman showing silver ring",
+  "page": "https://unsplash.com/photos/AtSx_v7YVjU"
+ },
+ {
+  "key": "c59",
+  "id": "j2d7c1UZZXw",
+  "src": "https://images.unsplash.com/photo-1611146942956-d6be598e13cd",
+  "alt": "person wearing silver rings",
+  "page": "https://unsplash.com/photos/j2d7c1UZZXw"
+ },
+ {
+  "key": "c60",
+  "id": "HGRi0H-VvfI",
+  "src": "https://images.unsplash.com/photo-1650043131104-ce1da82d3cd6",
+  "alt": "woman's hand with two rings",
+  "page": "https://unsplash.com/photos/HGRi0H-VvfI"
+ },
+ {
+  "key": "c61",
+  "id": "ntDp9Nnaq8I",
+  "src": "https://images.unsplash.com/photo-1650043155925-decbf940020b",
+  "alt": "woman's hand with a ring",
+  "page": "https://unsplash.com/photos/ntDp9Nnaq8I"
+ },
+ {
+  "key": "c62",
+  "id": "Y_bxfTa_iUA",
+  "src": "https://images.unsplash.com/photo-1605100804763-247f67b3557e",
+  "alt": "silver diamond ring on black box",
+  "page": "https://unsplash.com/photos/Y_bxfTa_iUA"
+ },
+ {
+  "key": "c63",
+  "id": "mmCm6c2ru5A",
+  "src": "https://images.unsplash.com/photo-1586104237516-5b7075e00d45",
+  "alt": "silver blue and green stone ring",
+  "page": "https://unsplash.com/photos/mmCm6c2ru5A"
+ },
+ {
+  "key": "c64",
+  "id": "R-Us1TGFioQ",
+  "src": "https://images.unsplash.com/photo-1587593692659-38c32c496642",
+  "alt": "silver and gold rings on white",
+  "page": "https://unsplash.com/photos/R-Us1TGFioQ"
+ },
+ {
+  "key": "c65",
+  "id": "o87CUS_uDiQ",
+  "src": "https://images.unsplash.com/photo-1599708978061-501091150ec9",
+  "alt": "silver and green stone ring",
+  "page": "https://unsplash.com/photos/o87CUS_uDiQ"
+ },
+ {
+  "key": "c66",
+  "id": "wOfSP_0MO_g",
+  "src": "https://images.unsplash.com/photo-1713950920412-97799efdf870",
+  "alt": "ring on black surface",
+  "page": "https://unsplash.com/photos/wOfSP_0MO_g"
+ },
+ {
+  "key": "c67",
+  "id": "NsH-CvU0deg",
+  "src": "https://images.unsplash.com/photo-1633934542430-0905ccb5f050",
+  "alt": "person wearing rings and necklace",
+  "page": "https://unsplash.com/photos/NsH-CvU0deg"
+ },
+ {
+  "key": "c68",
+  "id": "oO0JAOJhquk",
+  "src": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a",
+  "alt": "gold chain bracelet",
+  "page": "https://unsplash.com/photos/oO0JAOJhquk"
+ },
+ {
+  "key": "c69",
+  "id": "wewzzx11ShI",
+  "src": "https://images.unsplash.com/photo-1631982690223-8aa4be0a2497",
+  "alt": "three gold rings in white box",
+  "page": "https://unsplash.com/photos/wewzzx11ShI"
+ },
+ {
+  "key": "c70",
+  "id": "y2ErhoE92KA",
+  "src": "https://images.unsplash.com/photo-1569397288884-4d43d6738fbd",
+  "alt": "gold pendant necklace",
+  "page": "https://unsplash.com/photos/y2ErhoE92KA"
+ },
+ {
+  "key": "c71",
+  "id": "moRYg6k5-Kg",
+  "src": "https://images.unsplash.com/photo-1650455221359-3aebf920bcc5",
+  "alt": "silver tray with gold jewelry",
+  "page": "https://unsplash.com/photos/moRYg6k5-Kg"
+ },
+ {
+  "key": "c72",
+  "id": "aldDZePniqg",
+  "src": "https://images.unsplash.com/photo-1611107683227-e9060eccd846",
+  "alt": "gold chain necklace on white",
+  "page": "https://unsplash.com/photos/aldDZePniqg"
+ },
+ {
+  "key": "c73",
+  "id": "hVPCnpu1GSs",
+  "src": "https://images.unsplash.com/photo-1721807644561-9efcabee5c42",
+  "alt": "jewelry on a table",
+  "page": "https://unsplash.com/photos/hVPCnpu1GSs"
+ },
+ {
+  "key": "c74",
+  "id": "AoZrJQ80KCc",
+  "src": "https://images.unsplash.com/photo-1679156271456-d6068c543ee7",
+  "alt": "bracelets on a table",
+  "page": "https://unsplash.com/photos/AoZrJQ80KCc"
+ },
+ {
+  "key": "c75",
+  "id": "BY7yvy4Qr5M",
+  "src": "https://images.unsplash.com/photo-1631832722475-dd2ecfc47257",
+  "alt": "necklace on black background",
+  "page": "https://unsplash.com/photos/BY7yvy4Qr5M"
+ },
+ {
+  "key": "c76",
+  "id": "akKnxLiN1jQ",
+  "src": "https://images.unsplash.com/photo-1682629846138-7db022565bd5",
+  "alt": "pearl and diamond pendant on black",
+  "page": "https://unsplash.com/photos/akKnxLiN1jQ"
+ },
+ {
+  "key": "c77",
+  "id": "ZWwC_6VfdAU",
+  "src": "https://images.unsplash.com/photo-1591209608777-fb022eac7112",
+  "alt": "silver diamond studded ring on white",
+  "page": "https://unsplash.com/photos/ZWwC_6VfdAU"
+ },
+ {
+  "key": "c78",
+  "id": "Ll2oabAynTU",
+  "src": "https://images.unsplash.com/photo-1695050049047-54e27a908898",
+  "alt": "necklace on a table 2",
+  "page": "https://unsplash.com/photos/Ll2oabAynTU"
+ },
+ {
+  "key": "c79",
+  "id": "KEv3taOnAe0",
+  "src": "https://images.unsplash.com/photo-1684616290165-205b153d421e",
+  "alt": "earrings hanging from a branch",
+  "page": "https://unsplash.com/photos/KEv3taOnAe0"
+ },
+ {
+  "key": "c80",
+  "id": "Pxexdj3Q09g",
+  "src": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8",
+  "alt": "gold diamond studded ring",
+  "page": "https://unsplash.com/photos/Pxexdj3Q09g"
+ },
+ {
+  "key": "c81",
+  "id": "zZLhoEwGCeM",
+  "src": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516",
+  "alt": "three gold studded rings",
+  "page": "https://unsplash.com/photos/zZLhoEwGCeM"
+ },
+ {
+  "key": "c82",
+  "id": "2zHQhfEpisc",
+  "src": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338",
+  "alt": "pearl necklace with box",
+  "page": "https://unsplash.com/photos/2zHQhfEpisc"
  }
 ]
