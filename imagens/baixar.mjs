@@ -1,9 +1,11 @@
 // Baixa as fotos candidatas direto do CDN do Unsplash (licença Unsplash: uso comercial livre).
 import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { existsSync } from "node:fs";
 const list = JSON.parse(await readFile("imagens/candidatas.json", "utf8"));
 await mkdir("imagens/candidatas", { recursive: true });
 const log = [];
 for (const it of list) {
+  if (existsSync(`imagens/candidatas/${it.key}.jpg`)) { log.push(`já tinha ${it.key}`); continue; }
   try {
     const res = await fetch(`${it.src}?w=1400&q=82&fm=jpg&fit=max`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
