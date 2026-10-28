@@ -1,0 +1,429 @@
+[
+[
+"SKU interno",
+"Produto",
+"Tamanho",
+"Quantidade em estoque",
+"Preço de venda (R$)"
+],
+[
+"DI-P925-INF-001",
+"STITCH",
+"NA",
+"1",
+"0"
+],
+[
+"AN-P925-COR-004-14",
+"Anel de Prata Solitário Coração Vermelho",
+"14",
+"1",
+"69.90"
+],
+[
+"BR-P925-TRI-016",
+"Trio de Brinco de Prata Ponto de Luz Cristal",
+"20",
+"1",
+"79.90"
+],
+[
+"AN-P925-ZIR-007-UN",
+"Anel Aparador de Prata Cravejado uma Fileira",
+"NA",
+"1",
+"75.00"
+],
+[
+"TO-P925-NAT-001",
+"Tornozeleira 1 Concha Mini Liso de Prata",
+"NA",
+"1",
+"75.00"
+],
+[
+"TO-P925-EST-001",
+"Tornozeleira de Prata 1 Estrela Mini Liso",
+"NA",
+"1",
+"75.00"
+],
+[
+"TO-P925-COR-001",
+"Tornozeleira de Prata 1 Coração Mini Liso",
+"NA",
+"1",
+"89.90"
+],
+[
+"PU-P925-MAS-001",
+"Pulseira de Prata Masculina Piastrine 1",
+"5mm Fio 050",
+"1",
+"0"
+],
+[
+"CO-P925-MAS-001-60",
+"Corrente de Prata Masculina Piastrine 1",
+"5mm Fio 050",
+"1",
+"0"
+],
+[
+"PU-P925-MAS-002",
+"Pulseira de Prata Masculina Grumet 3mm Fio 080",
+"NA",
+"1",
+"67.00"
+],
+[
+"AN-P925-COR-005-18",
+"Anel de Prata Solitário Coração Turmalina",
+"18",
+"1",
+"110.00"
+],
+[
+"AN-P925-ZIR-006-14",
+"Anel de Prata Solitário Reforçado com Pedra Rosa",
+"14",
+"1",
+"129.90"
+],
+[
+"CO-P925-ZIR-006-45",
+"Colar de Prata Ponto de Luz Oval Cravejado Cristal",
+"45",
+"1",
+"129.90"
+],
+[
+"CO-P925-COR-007-45",
+"Colar de Prata Ponto de Luz Coração Cravejado 8mm",
+"45",
+"1",
+"129.90"
+],
+[
+"CO-P925-ZIR-007-45",
+"Colar de Prata Ponto de Luz Redondo Cravejado Cristal",
+"45",
+"1",
+"129.90"
+],
+[
+"CO-P925-COR-008-40",
+"Colar de Prata Ponto de Luz Coração Verde Cravejado",
+"40",
+"1",
+"119.90"
+],
+[
+"CO-P925-GOT-001-40",
+"Colar de Prata Ponto de Luz Gota Cristal",
+"40",
+"1",
+"137.00"
+],
+[
+"CO-P925-COR-009-40",
+"Gargantilha de Prata Coração Pedra 6mm",
+"40",
+"1",
+"119.90"
+],
+[
+"CO-P925-GEO-001-40",
+"Gargantilha de Prata Círculo Cravejado",
+"40",
+"1",
+"89.90"
+],
+[
+"PU-P925-LIS-001",
+"Bracelet de Prata Quadrado Fio 200 Abaulado",
+"NA",
+"1",
+"75.00"
+],
+[
+"PU-P925-PER-001",
+"Pulseira de Prata 4 Pérolas 6mm Embutidos",
+"NA",
+"1",
+"85.00"
+],
+[
+"PU-P925-ZIR-001",
+"Pulseira 3 Pontos de Luz Trevo 5mm Central Cristal",
+"NA",
+"2",
+"59.90"
+],
+[
+"PU-P925-COR-001",
+"Pulseira de Prata Elo Coração 040",
+"NA",
+"1",
+"55.00"
+],
+[
+"BR-P925-GEO-016",
+"Brinco Quadrado Fio Triangulo 2cm",
+"NA",
+"2",
+"52.00"
+],
+[
+"BR-P925-LIS-004",
+"Brinco Argola de Prata Lisa Fio 2mm Abaulado 2cm",
+"NA",
+"1",
+"55.00"
+],
+[
+"BR-P925-GEO-017",
+"Brinco de Prata Oval 1",
+"9cm Fio Quadrado 1",
+"1",
+"49.90"
+],
+[
+"BR-P925-GEO-018",
+"Brinco de Argola de Prata Quadrado 1",
+"8cm Fio 150 Triângulo",
+"1",
+""
+],
+[
+"BR-P925-GEO-019",
+"Brinco Argola de Prata Quadrada Fio 13mm Quadrado Liso",
+"NA",
+"1",
+"49.90"
+],
+[
+"BR-P925-GEO-020",
+"Brinco de Argola de Prata Retangular Liso (11mm)",
+"NA",
+"2",
+"79.90"
+],
+[
+"BR-P925-NAT-001",
+"Brinco de Prata Raminho de Folhas",
+"NA",
+"1",
+"79.00"
+],
+[
+"AN-P925-ZIR-008-16",
+"Anel Solitário Zircônia de Prata",
+"16",
+"1",
+"89.90"
+],
+[
+"AN-P925-ZIR-009-16",
+"Anel de Prata Solitário Ponto de Luz Cristal",
+"16",
+"1",
+"85.00"
+],
+[
+"AN-P925-ZIR-009-18",
+"Anel de Prata Solitário Ponto de Luz Cristal",
+"18",
+"1",
+"85.00"
+],
+[
+"AN-P925-LIS-001-20",
+"Anel de Prata Liso",
+"20",
+"1",
+"0"
+],
+[
+"AN-P925-LIS-001-18",
+"Anel de Prata Liso",
+"18",
+"1",
+"85.00"
+],
+[
+"AN-P925-ANI-001-14",
+"Anel de Prata Cobra Cravejada",
+"14",
+"1",
+"85.00"
+],
+[
+"AN-P925-ZIR-010-14",
+"Anel de Prata Solitário Verde com Bolas",
+"14",
+"1",
+"89.90"
+],
+[
+"AN-P925-LIS-002-20",
+"Anel de Prata Minimalista 1mm Liso",
+"20",
+"1",
+"49.90"
+],
+[
+"AN-P925-LIS-002-18",
+"Anel de Prata Minimalista 1mm Liso",
+"18",
+"1",
+"49.90"
+],
+[
+"AN-P925-LIS-002-14",
+"Anel de Prata Minimalista 1mm Liso",
+"14",
+"1",
+"49.90"
+],
+[
+"AN-P925-ZIR-007-14",
+"Anel Aparador de Prata Cravejado uma Fileira",
+"14",
+"1",
+"79.90"
+],
+[
+"AN-P925-LIS-003-18",
+"Anel de Prata Chapa Liso",
+"18",
+"1",
+"110.00"
+],
+[
+"AN-P925-ZIR-011-18",
+"Anel de Prata Chapa Solitário Retângulo Azul Cravejado",
+"18",
+"1",
+"0"
+],
+[
+"AN-P925-ZIR-012-14",
+"Anel de Prata Solitário Ponto de Luz Vermelho",
+"14",
+"1",
+"67.00"
+],
+[
+"AN-P925-ZIR-013-18",
+"Anel de Prata V Cravejado e Liso",
+"18",
+"1",
+"87.00"
+],
+[
+"AN-P925-ZIR-014-14",
+"Anel de Prata Solitário Quadrado Verde",
+"14",
+"1",
+"69.90"
+],
+[
+"AN-P925-COR-006-18",
+"Anel de Prata Coração Vazado Liso Minimalista",
+"18",
+"1",
+"55.00"
+],
+[
+"AN-P925-COR-006-14",
+"Anel de Prata Coração Vazado Liso Minimalista",
+"14",
+"1",
+"59.90"
+],
+[
+"BR-P925-GOT-013",
+"Brinco de Argola de Prata Gota Fio 130 Quadrado",
+"NA",
+"1",
+"45.00"
+],
+[
+"CO-P925-REL-001",
+"Colar de Prata 925 Choker Pingentes Cruz",
+"NA",
+"1",
+""
+],
+[
+"CO-P925-COR-002",
+"Colar de Prata 925 Corações Pendurados Azul Claro",
+"NA",
+"1",
+""
+],
+[
+"BR-P925-TRI-001",
+"Trio de Argolas de Prata 925 Balões",
+"NA",
+"1",
+""
+],
+[
+"BR-P925-TRI-002",
+"Trio de Argolas de Prata 925 Gotas",
+"NA",
+"1",
+""
+],
+[
+"PU-P925-INF-001",
+"Pulseira de Prata 925 Infantil Singapura",
+"NA",
+"1",
+""
+],
+[
+"BR-P925-LIS-003",
+"Argola de Prata 925 Lisa",
+"2,5cm",
+"1",
+""
+],
+[
+"AN-P925-REG-001-UN",
+"Anel de Prata 925 Regulável Coração Liso e Ponto de Luz",
+"UN",
+"1",
+""
+],
+[
+"AN-P925-OURO-002-22",
+"Anel de Prata Aparador Cravejado com Banho de Ouro 18k",
+"22",
+"-1",
+"120.00"
+],
+[
+"AN-P925-OURO-002-16",
+"Anel de Prata Aparador Cravejado com Banho de Ouro 18k",
+"16",
+"-1",
+"99.00"
+],
+[
+"AN-P925-LIS-004-22",
+"Anel de Prata Liso com Banho de Ouro 18k",
+"22",
+"-1",
+"99.00"
+],
+[
+"CO-P925-COR-013-45",
+"Colar de Prata Ponto de Luz Coração Verde Cravejado",
+"45cm",
+"-2",
+"120.00"
+]
+]

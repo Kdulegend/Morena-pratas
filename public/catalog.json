@@ -1,0 +1,871 @@
+{
+  "updatedAt": "2026-10-28T21:47:02.154Z",
+  "products": [
+    {
+      "id": "AN-P925-LIS-002",
+      "slug": "anel-de-prata-minimalista-1mm-liso-002",
+      "name": "Anel de Prata Minimalista 1mm Liso",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-liso",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-LIS-002-14",
+          "size": "14",
+          "price": 49.9,
+          "stock": 1
+        },
+        {
+          "sku": "AN-P925-LIS-002-18",
+          "size": "18",
+          "price": 49.9,
+          "stock": 1
+        },
+        {
+          "sku": "AN-P925-LIS-002-20",
+          "size": "20",
+          "price": 49.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 49.9
+    },
+    {
+      "id": "AN-P925-COR-006",
+      "slug": "anel-de-prata-coracao-vazado-liso-minimalista-006",
+      "name": "Anel de Prata Coração Vazado Liso Minimalista",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-coracao",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-COR-006-14",
+          "size": "14",
+          "price": 59.9,
+          "stock": 1
+        },
+        {
+          "sku": "AN-P925-COR-006-18",
+          "size": "18",
+          "price": 55,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 55
+    },
+    {
+      "id": "AN-P925-ZIR-012",
+      "slug": "anel-de-prata-solitario-ponto-de-luz-vermelho-012",
+      "name": "Anel de Prata Solitário Ponto de Luz Vermelho",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "vermelho"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-012-14",
+          "size": "14",
+          "price": 67,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 67
+    },
+    {
+      "id": "AN-P925-COR-004",
+      "slug": "anel-de-prata-solitario-coracao-vermelho-004",
+      "name": "Anel de Prata Solitário Coração Vermelho",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-coracao",
+        "stone": "vermelho"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-COR-004-14",
+          "size": "14",
+          "price": 69.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 69.9
+    },
+    {
+      "id": "AN-P925-ZIR-014",
+      "slug": "anel-de-prata-solitario-quadrado-verde-014",
+      "name": "Anel de Prata Solitário Quadrado Verde",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "verde"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-014-14",
+          "size": "14",
+          "price": 69.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 69.9
+    },
+    {
+      "id": "AN-P925-ZIR-009",
+      "slug": "anel-de-prata-solitario-ponto-de-luz-cristal-009",
+      "name": "Anel de Prata Solitário Ponto de Luz Cristal",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-009-16",
+          "size": "16",
+          "price": 85,
+          "stock": 1
+        },
+        {
+          "sku": "AN-P925-ZIR-009-18",
+          "size": "18",
+          "price": 85,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 85
+    },
+    {
+      "id": "AN-P925-LIS-001",
+      "slug": "anel-de-prata-liso-001",
+      "name": "Anel de Prata Liso",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-liso",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-LIS-001-18",
+          "size": "18",
+          "price": 85,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 85
+    },
+    {
+      "id": "AN-P925-ANI-001",
+      "slug": "anel-de-prata-cobra-cravejada-001",
+      "name": "Anel de Prata Cobra Cravejada",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ANI-001-14",
+          "size": "14",
+          "price": 85,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 85
+    },
+    {
+      "id": "AN-P925-ZIR-013",
+      "slug": "anel-de-prata-v-cravejado-e-liso-013",
+      "name": "Anel de Prata V Cravejado e Liso",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-013-18",
+          "size": "18",
+          "price": 87,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 87
+    },
+    {
+      "id": "AN-P925-ZIR-008",
+      "slug": "anel-solitario-zirconia-de-prata-008",
+      "name": "Anel Solitário Zircônia de Prata",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-008-16",
+          "size": "16",
+          "price": 89.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 89.9
+    },
+    {
+      "id": "AN-P925-ZIR-010",
+      "slug": "anel-de-prata-solitario-verde-com-bolas-010",
+      "name": "Anel de Prata Solitário Verde com Bolas",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "verde"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-010-14",
+          "size": "14",
+          "price": 89.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 89.9
+    },
+    {
+      "id": "AN-P925-COR-005",
+      "slug": "anel-de-prata-solitario-coracao-turmalina-005",
+      "name": "Anel de Prata Solitário Coração Turmalina",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-coracao",
+        "stone": "rosa"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-COR-005-18",
+          "size": "18",
+          "price": 110,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 110
+    },
+    {
+      "id": "AN-P925-LIS-003",
+      "slug": "anel-de-prata-chapa-liso-003",
+      "name": "Anel de Prata Chapa Liso",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-liso",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-LIS-003-18",
+          "size": "18",
+          "price": 110,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 110
+    },
+    {
+      "id": "AN-P925-ZIR-006",
+      "slug": "anel-de-prata-solitario-reforcado-com-pedra-rosa-006",
+      "name": "Anel de Prata Solitário Reforçado com Pedra Rosa",
+      "category": "aneis",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "anel-solitario",
+        "stone": "rosa"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-006-14",
+          "size": "14",
+          "price": 129.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 129.9
+    },
+    {
+      "id": "AN-P925-ZIR-007",
+      "slug": "anel-aparador-de-prata-cravejado-uma-fileira-007",
+      "name": "Anel Aparador de Prata Cravejado uma Fileira",
+      "category": "aparadores",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "aparador",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "AN-P925-ZIR-007-UN",
+          "size": "Único",
+          "price": 75,
+          "stock": 1
+        },
+        {
+          "sku": "AN-P925-ZIR-007-14",
+          "size": "14",
+          "price": 79.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 75
+    },
+    {
+      "id": "CO-P925-GEO-001",
+      "slug": "gargantilha-de-prata-circulo-cravejado-001",
+      "name": "Gargantilha de Prata Círculo Cravejado",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-ponto",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-GEO-001-40",
+          "size": "40 cm",
+          "price": 89.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 89.9
+    },
+    {
+      "id": "CO-P925-COR-008",
+      "slug": "colar-de-prata-ponto-de-luz-coracao-verde-cravejado-008",
+      "name": "Colar de Prata Ponto de Luz Coração Verde Cravejado",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-coracao",
+        "stone": "verde"
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-COR-008-40",
+          "size": "40 cm",
+          "price": 119.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 119.9
+    },
+    {
+      "id": "CO-P925-COR-009",
+      "slug": "gargantilha-de-prata-coracao-pedra-6mm-009",
+      "name": "Gargantilha de Prata Coração Pedra 6mm",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-coracao",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-COR-009-40",
+          "size": "40 cm",
+          "price": 119.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 119.9
+    },
+    {
+      "id": "CO-P925-ZIR-006",
+      "slug": "colar-de-prata-ponto-de-luz-oval-cravejado-cristal-006",
+      "name": "Colar de Prata Ponto de Luz Oval Cravejado Cristal",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-ponto",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-ZIR-006-45",
+          "size": "45 cm",
+          "price": 129.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 129.9
+    },
+    {
+      "id": "CO-P925-COR-007",
+      "slug": "colar-de-prata-ponto-de-luz-coracao-cravejado-8mm-007",
+      "name": "Colar de Prata Ponto de Luz Coração Cravejado 8mm",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-coracao",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-COR-007-45",
+          "size": "45 cm",
+          "price": 129.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 129.9
+    },
+    {
+      "id": "CO-P925-ZIR-007",
+      "slug": "colar-de-prata-ponto-de-luz-redondo-cravejado-cristal-007",
+      "name": "Colar de Prata Ponto de Luz Redondo Cravejado Cristal",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-ponto",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-ZIR-007-45",
+          "size": "45 cm",
+          "price": 129.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 129.9
+    },
+    {
+      "id": "CO-P925-GOT-001",
+      "slug": "colar-de-prata-ponto-de-luz-gota-cristal-001",
+      "name": "Colar de Prata Ponto de Luz Gota Cristal",
+      "category": "colares",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "colar-ponto",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "CO-P925-GOT-001-40",
+          "size": "40 cm",
+          "price": 137,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 137
+    },
+    {
+      "id": "PU-P925-COR-001",
+      "slug": "pulseira-de-prata-elo-coracao-040-001",
+      "name": "Pulseira de Prata Elo Coração 040",
+      "category": "pulseiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "pulseira-coracao",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "PU-P925-COR-001",
+          "size": "Único",
+          "price": 55,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 55
+    },
+    {
+      "id": "PU-P925-ZIR-001",
+      "slug": "pulseira-3-pontos-de-luz-trevo-5mm-central-cristal-001",
+      "name": "Pulseira 3 Pontos de Luz Trevo 5mm Central Cristal",
+      "category": "pulseiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "pulseira",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "PU-P925-ZIR-001",
+          "size": "Único",
+          "price": 59.9,
+          "stock": 2
+        }
+      ],
+      "priceFrom": 59.9
+    },
+    {
+      "id": "PU-P925-MAS-002",
+      "slug": "pulseira-de-prata-masculina-grumet-3mm-fio-080-002",
+      "name": "Pulseira de Prata Masculina Grumet 3mm Fio 080",
+      "category": "pulseiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "pulseira",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "PU-P925-MAS-002",
+          "size": "Único",
+          "price": 67,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 67
+    },
+    {
+      "id": "PU-P925-LIS-001",
+      "slug": "bracelet-de-prata-quadrado-fio-200-abaulado-001",
+      "name": "Bracelet de Prata Quadrado Fio 200 Abaulado",
+      "category": "pulseiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "bracelete",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "PU-P925-LIS-001",
+          "size": "Único",
+          "price": 75,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 75
+    },
+    {
+      "id": "PU-P925-PER-001",
+      "slug": "pulseira-de-prata-4-perolas-6mm-embutidos-001",
+      "name": "Pulseira de Prata 4 Pérolas 6mm Embutidos",
+      "category": "pulseiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "pulseira-perolas",
+        "stone": "perola"
+      },
+      "variants": [
+        {
+          "sku": "PU-P925-PER-001",
+          "size": "Único",
+          "price": 85,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 85
+    },
+    {
+      "id": "BR-P925-GOT-013",
+      "slug": "brinco-de-argola-de-prata-gota-fio-130-quadrado-013",
+      "name": "Brinco de Argola de Prata Gota Fio 130 Quadrado",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "argola-quadrada",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-GOT-013",
+          "size": "Único",
+          "price": 45,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 45
+    },
+    {
+      "id": "BR-P925-GEO-017",
+      "slug": "brinco-de-prata-oval-1-017",
+      "name": "Brinco de Prata Oval 1",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "argola-gota",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-GEO-017",
+          "size": "9cm Fio Quadrado 1",
+          "price": 49.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 49.9
+    },
+    {
+      "id": "BR-P925-GEO-019",
+      "slug": "brinco-argola-de-prata-quadrada-fio-13mm-quadrado-liso-019",
+      "name": "Brinco Argola de Prata Quadrada Fio 13mm Quadrado Liso",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "argola-quadrada",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-GEO-019",
+          "size": "Único",
+          "price": 49.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 49.9
+    },
+    {
+      "id": "BR-P925-GEO-016",
+      "slug": "brinco-quadrado-fio-triangulo-2cm-016",
+      "name": "Brinco Quadrado Fio Triangulo 2cm",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "argola-quadrada",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-GEO-016",
+          "size": "Único",
+          "price": 52,
+          "stock": 2
+        }
+      ],
+      "priceFrom": 52
+    },
+    {
+      "id": "BR-P925-LIS-004",
+      "slug": "brinco-argola-de-prata-lisa-fio-2mm-abaulado-2cm-004",
+      "name": "Brinco Argola de Prata Lisa Fio 2mm Abaulado 2cm",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "argola",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-LIS-004",
+          "size": "Único",
+          "price": 55,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 55
+    },
+    {
+      "id": "BR-P925-NAT-001",
+      "slug": "brinco-de-prata-raminho-de-folhas-001",
+      "name": "Brinco de Prata Raminho de Folhas",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "brinco-folhas",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-NAT-001",
+          "size": "Único",
+          "price": 79,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 79
+    },
+    {
+      "id": "BR-P925-TRI-016",
+      "slug": "trio-de-brinco-de-prata-ponto-de-luz-cristal-016",
+      "name": "Trio de Brinco de Prata Ponto de Luz Cristal",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "brinco-trio",
+        "stone": "cristal"
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-TRI-016",
+          "size": "20",
+          "price": 79.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 79.9
+    },
+    {
+      "id": "BR-P925-GEO-020",
+      "slug": "brinco-de-argola-de-prata-retangular-liso-11mm-020",
+      "name": "Brinco de Argola de Prata Retangular Liso (11mm)",
+      "category": "brincos",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "argola-quadrada",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "BR-P925-GEO-020",
+          "size": "Único",
+          "price": 79.9,
+          "stock": 2
+        }
+      ],
+      "priceFrom": 79.9
+    },
+    {
+      "id": "TO-P925-NAT-001",
+      "slug": "tornozeleira-1-concha-mini-liso-de-prata-001",
+      "name": "Tornozeleira 1 Concha Mini Liso de Prata",
+      "category": "tornozeleiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "tornozeleira-concha",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "TO-P925-NAT-001",
+          "size": "Único",
+          "price": 75,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 75
+    },
+    {
+      "id": "TO-P925-EST-001",
+      "slug": "tornozeleira-de-prata-1-estrela-mini-liso-001",
+      "name": "Tornozeleira de Prata 1 Estrela Mini Liso",
+      "category": "tornozeleiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "tornozeleira-estrela",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "TO-P925-EST-001",
+          "size": "Único",
+          "price": 75,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 75
+    },
+    {
+      "id": "TO-P925-COR-001",
+      "slug": "tornozeleira-de-prata-1-coracao-mini-liso-001",
+      "name": "Tornozeleira de Prata 1 Coração Mini Liso",
+      "category": "tornozeleiras",
+      "material": "prata",
+      "description": "",
+      "photo": null,
+      "drawing": {
+        "kind": "tornozeleira-coracao",
+        "stone": null
+      },
+      "variants": [
+        {
+          "sku": "TO-P925-COR-001",
+          "size": "Único",
+          "price": 89.9,
+          "stock": 1
+        }
+      ],
+      "priceFrom": 89.9
+    }
+  ]
+}
