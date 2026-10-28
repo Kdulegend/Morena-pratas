@@ -24,7 +24,7 @@ export function Header({ home = false }: { home?: boolean }) {
   return (
     <header className={`wrap relative z-20 flex items-center gap-6 py-5 ${home ? "justify-end" : "justify-between"}`}>
       {!home && (
-        <Link to="/" className="t-lead no-underline">
+        <Link to="/" className="nav-link t-lead">
           morena pratas
         </Link>
       )}

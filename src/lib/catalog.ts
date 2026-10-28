@@ -12,6 +12,7 @@ export type Product = {
   material: Material;
   description: string;
   photo: string | null;
+  photoIllustrative?: boolean;
   drawing: { kind: string; stone: string | null };
   variants: Variant[];
   priceFrom: number;
@@ -32,6 +33,9 @@ export const MATERIALS: { id: Material; label: string }[] = [
 ];
 
 export const brl = (n: number) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+/** Foto da planilha (URL completa) ou ilustrativa do próprio site (caminho relativo). */
+export const photoUrl = (src: string) => (/^https?:/.test(src) ? src : `${import.meta.env.BASE_URL}${src}`);
+
 export const isRing = (p: Product) => p.category === "aneis" || p.category === "aparadores";
 export const inStock = (p: Product) => p.variants.some((v) => v.stock > 0);
 

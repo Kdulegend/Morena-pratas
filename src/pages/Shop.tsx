@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { ProductArt } from "@/components/ProductArt";
 import { CATEGORIES, MATERIALS, brl, useCatalog, type CategoryId, type Material } from "@/lib/catalog";
 import { useReveal } from "@/lib/useReveal";
+import { usePageTitle } from "@/lib/usePageTitle";
 import { waLink } from "@/config";
 
 export default function Shop() {
@@ -20,6 +21,7 @@ export default function Shop() {
     [catalog, cat, material],
   );
   const title = cat ? cat.label : material === "ouro" ? "Banhadas a ouro" : "Loja";
+  usePageTitle(title);
   const countFor = (id: CategoryId) => (catalog?.products ?? []).filter((p) => p.category === id && (!material || p.material === material)).length;
 
   const setMaterial = (m: Material | null) => {
@@ -66,6 +68,8 @@ export default function Shop() {
           ))}
         </div>
 
+        <p className="mt-6 t-small text-muted">Fotos ilustrativas, escolhidas pela semelhança com cada peça, até chegarem as fotos da nossa gaveta.</p>
+
         {error && <p className="mt-16">Não conseguimos carregar as peças agora. Atualize a página em instantes.</p>}
         {!catalog && !error && <p className="mt-16 text-muted">Carregando as peças…</p>}
 
@@ -85,7 +89,7 @@ export default function Shop() {
               <li key={p.id} className="reveal" style={{ ["--i" as string]: i % 4 }}>
                 <Link to={`/peca/${p.slug}`} className="group block no-underline">
                   <div className="aspect-square overflow-hidden">
-                    <div className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.04]">
+                    <div className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]">
                       <ProductArt product={p} />
                     </div>
                   </div>

@@ -2,12 +2,14 @@ import { useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { useCart } from "@/lib/cart";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 // Volta do Mercado Pago (back_urls). A confirmação real vem pelo webhook; aqui só informamos a cliente.
 export default function Return() {
   const [params] = useSearchParams();
   const status = params.get("status") ?? params.get("collection_status");
   const { clear } = useCart();
+  usePageTitle("Seu pedido");
   const ok = status === "approved";
   const pending = status === "pending" || status === "in_process";
   useEffect(() => { if (ok || pending) clear(); }, [ok, pending, clear]);

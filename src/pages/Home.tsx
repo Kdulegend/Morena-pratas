@@ -2,8 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Mandrel } from "@/components/Mandrel";
-import { JewelDrawing } from "@/components/JewelDrawing";
+import { ProductArt, SectionPhoto } from "@/components/ProductArt";
 import { CATEGORIES, brl, isRing, useCatalog, type Product } from "@/lib/catalog";
 import { useCart } from "@/lib/cart";
 import { useReveal } from "@/lib/useReveal";
@@ -54,23 +53,19 @@ export default function Home() {
   const toggle = (id: string) => setPicked((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : cur.length >= 5 ? cur : [...cur, id]));
   const chooseAro = (a: number) => { setAro(a); setPicked([]); };
   const takeStack = () => {
-    stack.forEach((r) => cart.add({ sku: r.sku, productId: r.product.id, slug: r.product.slug, name: r.product.name, size: String(currentAro), price: r.price, max: r.stock }));
+    stack.forEach((r) => cart.add({ sku: r.sku, productId: r.product.id, slug: r.product.slug, name: r.product.name, size: String(currentAro), price: r.price, max: r.stock, photo: r.product.photo }));
     cart.setOpen(true);
   };
 
   const ringsFrom = products.filter(isRing).reduce((m, p) => Math.min(m, p.priceFrom), Infinity);
-  const stageRings = stack.map((r) => r.product);
 
   return (
     <>
       <div className="relative lg:grid lg:grid-cols-2">
         {/* O palco: fica parado a visita inteira no desktop */}
-        <aside className="sticky top-0 z-0 h-[58svh] p-3 lg:h-svh lg:p-[var(--margin)] lg:pr-0" aria-label="Tribulê com a sua pilha">
-          <div className="relative flex h-full items-center justify-center overflow-hidden bg-stage">
-            <Mandrel aro={currentAro} rings={stageRings} className="drift h-[94%] w-auto" />
-            <p className="absolute left-6 top-6 hidden t-small text-muted lg:block">
-              Aro {currentAro}{stack.length > 0 ? ` · ${stack.length} ${stack.length === 1 ? "anel" : "anéis"} · ${brl(stackTotal)}` : ""}
-            </p>
+        <aside className="sticky top-0 z-0 h-[62svh] p-3 lg:h-svh lg:p-[var(--margin)] lg:pr-0">
+          <div className="relative h-full overflow-hidden bg-stage">
+            <SectionPhoto name="hero" eager alt="Mãos com anéis de prata sobre fundo escuro" />
           </div>
         </aside>
 
@@ -80,7 +75,7 @@ export default function Home() {
 
         <main className="relative z-10 lg:bg-transparent">
           {/* Primeira tela: o nome em largura de cartaz, cruzando a borda do palco */}
-          <h1 id="marca" className="hero-mark mark-scroll wrap relative z-10 -mt-[11vw] whitespace-nowrap leading-[0.9] tracking-[-0.045em] lg:absolute lg:right-[var(--margin)] lg:top-[calc(100svh-40px)] lg:m-0 lg:-translate-y-full lg:px-0">
+          <h1 id="marca" className="hero-mark wrap relative z-10 -mt-[11vw] whitespace-nowrap leading-[0.9] tracking-[-0.045em] lg:absolute lg:right-[var(--margin)] lg:top-[calc(100svh-40px)] lg:m-0 lg:-translate-y-full lg:px-0">
             morena pratas
           </h1>
           <section aria-label="Apresentação" className="bg-bg lg:flex lg:min-h-svh lg:flex-col lg:bg-transparent">
@@ -90,7 +85,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap items-center gap-6 md:justify-end lg:mt-8 lg:justify-start reveal" style={{ ["--i" as string]: 2 }}>
                 <Link to="/loja" className="btn">Ver a loja</Link>
-                <a href="#pilha" className="link self-center">ou monte uma pilha de anéis</a>
+                <a href="#pilha" className="link link-solo">ou monte uma pilha de anéis</a>
               </div>
             </div>
           </section>
@@ -113,13 +108,8 @@ export default function Home() {
 
             <h2 id="pilha-t" className="t-head mt-10 reveal" style={{ ["--i" as string]: 1 }}>Monte sua pilha</h2>
             <p className="mt-6 max-w-[40ch] text-muted reveal" style={{ ["--i" as string]: 2 }}>
-              Escolha seu aro e junte até cinco anéis no tribulê. Só aparece o que temos agora no seu tamanho.
+              Escolha seu aro e junte até cinco anéis. Aparadores e anéis finos foram feitos para usar juntos. Só aparece o que temos agora no seu tamanho.
             </p>
-
-            {/* no celular o tribulê volta aqui, perto das escolhas */}
-            <div className="mt-8 flex h-[340px] items-center justify-center bg-stage lg:hidden" aria-hidden="true">
-              <Mandrel aro={currentAro} rings={stageRings} className="h-[92%] w-auto" />
-            </div>
 
             <ul className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3" aria-label={`Anéis no aro ${currentAro}`}>
               {ringsInAro.map((r, i) => {
@@ -130,13 +120,14 @@ export default function Home() {
                       type="button"
                       aria-pressed={on}
                       onClick={() => toggle(r.product.id)}
-                      className={`group flex h-full w-full flex-col p-3 text-left transition-[background-color,transform] duration-200 active:scale-[0.98] ${on ? "bg-field text-field-ink" : "bg-surface hover:bg-[#3a2519]"}`}
+                      className={`group flex h-full w-full flex-col p-2 text-left transition-colors duration-200 ${on ? "bg-field text-field-ink" : "bg-surface hover:bg-[#3a2519]"}`}
                     >
-                      <span className={`flex aspect-square items-center justify-center bg-stage`}>
-                        <JewelDrawing kind={r.product.drawing.kind} stone={r.product.drawing.stone} material={r.product.material} title={r.product.name} className="h-[78%] w-[78%] transition-transform duration-300 group-hover:scale-105" />
+                      <span className="relative block aspect-square overflow-hidden">
+                        <ProductArt product={r.product} sizes="(min-width: 1024px) 15vw, 45vw" />
+                        {on && <span className="absolute left-2 top-2 bg-field px-2 py-1 t-small font-semibold text-field-ink">Na pilha</span>}
                       </span>
-                      <span className="mt-3 leading-snug">{r.product.name.replace(/^Anel (de Prata )?/, "").replace(/ de Prata/, "")}</span>
-                      <span className={`mt-1 tabular t-small ${on ? "text-field-muted" : "text-muted"}`}>
+                      <span className="mt-3 px-1 leading-snug">{r.product.name.replace(/^Anel (de Prata )?/, "").replace(/ de Prata/, "")}</span>
+                      <span className={`mt-1 px-1 pb-1 tabular t-small ${on ? "text-field-muted" : "text-muted"}`}>
                         {r.product.category === "aparadores" ? "Aparador · " : ""}{brl(r.price)}
                       </span>
                     </button>
@@ -145,7 +136,12 @@ export default function Home() {
               })}
             </ul>
 
-            <div className="mt-10 grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {stack.length > 0 && (
+              <p className="mt-8 t-small text-muted" aria-live="polite">
+                Sua pilha no aro {currentAro}: {stack.map((r) => r.product.name.replace(/^Anel (de Prata )?/, "")).join(" + ")}.
+              </p>
+            )}
+            <div className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2">
               <button type="button" className="btn !min-h-[72px] !justify-between" onClick={takeStack} disabled={!stack.length}>
                 <span>{stack.length ? "Levar a pilha" : "Escolha um anel"}</span>
                 <span className="tabular">{brl(stackTotal)}</span>
@@ -170,10 +166,10 @@ export default function Home() {
                         <span className="font-semibold">{c.label} <span className="font-normal text-muted tabular">· {items.length}</span></span>
                         <span aria-hidden="true" className="text-[1.5rem] leading-none transition-transform duration-200 group-open:rotate-45">+</span>
                       </summary>
-                      <ul className="flex flex-col gap-[14px] px-5 pb-6 pt-2">
+                      <ul className="flex flex-col px-5 pb-4 pt-1">
                         {items.map((p) => (
                           <li key={p.id}>
-                            <Link to={`/peca/${p.slug}`} className="flex justify-between gap-6 no-underline hover:opacity-75">
+                            <Link to={`/peca/${p.slug}`} className="flex min-h-[44px] items-center justify-between gap-6 py-2 no-underline hover:opacity-75">
                               <span>{p.name}</span>
                               <span className="tabular whitespace-nowrap">{p.variants.length > 1 && new Set(p.variants.map((v) => v.price)).size > 1 ? "a partir de " : ""}{brl(p.priceFrom)}</span>
                             </Link>
@@ -215,14 +211,14 @@ export default function Home() {
             <p className="mt-6 max-w-[34ch] text-field-muted reveal" style={{ ["--i" as string]: 1 }}>
               Tudo o que você precisa saber antes de levar uma peça, numa folha só.
             </p>
-            <figure className="mt-12 hidden w-[62%] lg:block reveal" style={{ ["--i" as string]: 2 }}>
-              <JewelDrawing kind="aparador" stone={null} material="prata" title="Aparador de prata cravejado" className="w-full" />
-              <figcaption className="mt-3 t-small text-field-muted">Aparador cravejado, uma fileira.</figcaption>
+            <figure className="mt-12 hidden max-w-[420px] lg:block reveal" style={{ ["--i" as string]: 2 }}>
+              <div className="aspect-[4/5] overflow-hidden"><SectionPhoto name="como" alt="Anéis dourados com detalhes em coração numa caixa de joias" /></div>
+              <figcaption className="mt-3 t-small text-field-muted">Banho de ouro 18k aplicado sobre prata 925.</figcaption>
             </figure>
           </div>
           <div
             className="reveal bg-[var(--sheet)] px-6 py-14 sm:px-12 lg:ml-[calc(var(--pad)-var(--margin))]"
-            style={{ ["--i" as string]: 1, clipPath: "polygon(" + scallop() + ")" }}
+            style={{ ["--i" as string]: 1 }}
           >
             {MENU.map((g) => (
               <div key={g.group} className="mb-11 last:mb-0">
@@ -247,11 +243,8 @@ export default function Home() {
 
       {/* Carta de quem escolhe as peças */}
       <section aria-labelledby="carta-t" className="wrap grid gap-10 py-40 lg:grid-cols-2 lg:gap-0">
-        <figure className="hidden lg:block reveal">
-          <div className="flex aspect-[4/5] max-w-[480px] items-center justify-center bg-stage">
-            <JewelDrawing kind="brinco-trio" stone="cristal" material="prata" title="Trio de brincos de prata com ponto de luz" className="w-[70%]" />
-          </div>
-          <figcaption className="mt-3 t-small text-muted">Trio de brincos ponto de luz, um dos primeiros da gaveta.</figcaption>
+        <figure className="reveal">
+          <div className="aspect-[4/5] max-w-[480px] overflow-hidden"><SectionPhoto name="carta" alt="Mão com anel fino de prata contra o céu" /></div>
         </figure>
         <div className="max-w-[540px] lg:pl-[calc(var(--pad)-var(--margin))]">
           <h2 id="carta-t" className="t-lead reveal">Quem escolhe as peças</h2>
@@ -279,8 +272,8 @@ export default function Home() {
 
       {/* Fechamento: uma frase, uma ação */}
       <section aria-labelledby="fala-t" className="wrap grid items-center gap-12 py-36 md:grid-cols-2 md:gap-0">
-        <div className="flex aspect-square max-w-[420px] items-center justify-center bg-surface reveal">
-          <JewelDrawing kind="anel-coracao" stone="vermelho" material="prata" title="Anel solitário coração vermelho" className="w-[68%]" />
+        <div className="aspect-[4/5] max-w-[420px] overflow-hidden reveal">
+          <SectionPhoto name="fala" alt="Braços com pulseiras finas de prata" />
         </div>
         <div className="md:pl-[calc(var(--pad)-var(--margin))] lg:pl-[calc(var(--pad)-var(--margin))]">
         <h2 id="fala-t" className="t-head reveal">Fala com a gente</h2>
@@ -289,7 +282,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex items-center gap-6 reveal" style={{ ["--i" as string]: 1 }}>
           <a className="btn" href={waLink("Oi, Morena Pratas! Quero ajuda para escolher uma peça.")} target="_blank" rel="noreferrer">Chamar no WhatsApp</a>
-          <Link to="/loja" className="link">Ou ver a loja</Link>
+          <Link to="/loja" className="link link-solo">Ou ver a loja</Link>
         </div>
         </div>
       </section>
@@ -297,14 +290,6 @@ export default function Home() {
       <Footer />
     </>
   );
-}
-
-/** Bordas de cima e de baixo recortadas em ondinhas, como papel de cardápio. */
-function scallop(n = 26, depth = 10) {
-  const pts: string[] = [];
-  for (let i = 0; i <= n; i++) { const x = (i / n) * 100; pts.push(`${x}% ${i % 2 ? depth : 0}px`); }
-  for (let i = n; i >= 0; i--) { const x = (i / n) * 100; pts.push(`${x}% calc(100% - ${i % 2 ? depth : 0}px)`); }
-  return pts.join(",");
 }
 
 const MENU: { group: string; items: [string, string, string?][] }[] = [
@@ -338,7 +323,7 @@ const MENU: { group: string; items: [string, string, string?][] }[] = [
 const LETTER = [
   "A Morena Pratas é uma loja de casal, em Salto. A gente separa cada peça na mão e só coloca à venda o que usaria.",
   "Trabalhamos com duas coisas: prata 925 e peças banhadas a ouro 18k sobre prata.",
-  "Os aparadores são o nosso xodó. Um anel fino ao lado de outro muda a mão inteira, e é por isso que o tribulê está lá em cima.",
+  "Os aparadores são o nosso xodó. Um anel fino ao lado de outro muda a mão inteira, e foi por isso que montamos a pilha logo no começo da página.",
   "Ficou em dúvida de tamanho, de cuidado ou de combinação? Chama a gente. Quem responde somos nós.",
 ];
 

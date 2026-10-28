@@ -2,15 +2,20 @@ import { Link } from "react-router-dom";
 import { CATEGORIES } from "@/lib/catalog";
 import { STORE, waLink } from "@/config";
 
-/** O fechamento: o nome volta em largura total sobre o palco, com o anel gigante cortado à direita. */
+/** O fechamento: o nome volta em largura total sobre a última foto. */
 export function Footer() {
   return (
     <footer className="relative overflow-hidden bg-stage">
-      <svg aria-hidden="true" viewBox="0 0 400 400" className="pointer-events-none absolute -right-[10vw] -top-[14vh] h-[66vh] max-h-[640px] w-auto">
-        <path d="M40 200 a160 168 0 1 0 320 0 a160 168 0 1 0 -320 0 Z M70 206 a130 138 0 1 0 260 0 a130 138 0 1 0 -260 0 Z" fill="var(--silver-3)" fillRule="evenodd" />
-        <path d="M70 206 a130 138 0 0 1 260 0 a130 118 0 0 0 -260 0 Z" fill="var(--silver-4)" />
-        <path d="M58 150 A156 164 0 0 1 180 40" fill="none" stroke="var(--silver-1)" strokeWidth="9" strokeLinecap="round" />
-      </svg>
+      <img
+        src={`${import.meta.env.BASE_URL}img/secao-rodape.webp`}
+        alt=""
+        width={1600}
+        height={900}
+        loading="lazy"
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover"
+        style={{ filter: "brightness(0.42)" }}
+      />
 
       <div className="wrap relative grid gap-10 pb-10 pt-10 md:grid-cols-12">
         <nav aria-label="Rodapé" className="md:col-span-4">
@@ -33,7 +38,7 @@ export function Footer() {
           morena pratas
         </p>
         <p className="t-small max-w-[70ch] pb-8 pt-6 text-muted">
-          © {new Date().getFullYear()} Morena Pratas · Prata 925 e banho de ouro 18k · Pagamentos processados pelo Mercado Pago
+          © {new Date().getFullYear()} Morena Pratas · Prata 925 e banho de ouro 18k · Pagamentos processados pelo Mercado Pago · Fotos ilustrativas: <a className="link" href="https://unsplash.com" target="_blank" rel="noreferrer">Unsplash</a>
         </p>
       </div>
     </footer>

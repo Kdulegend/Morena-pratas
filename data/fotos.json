@@ -1,0 +1,95 @@
+{
+  "_sobre": "Fotos ilustrativas do Unsplash (licença Unsplash: uso comercial livre, crédito opcional). Cada peça usa a foto mais parecida com a descrição até a loja ter fotos próprias na coluna 'Foto (URL)' da planilha, que sempre tem prioridade.",
+  "pecas": {
+    "AN-P925-LIS-002": "c12",
+    "AN-P925-COR-006": "c09",
+    "AN-P925-ZIR-012": "x2",
+    "AN-P925-COR-004": "x2",
+    "AN-P925-ZIR-014": "c65",
+    "AN-P925-ZIR-009": "c39",
+    "AN-P925-LIS-001": "c06",
+    "AN-P925-ANI-001": "c00",
+    "AN-P925-ZIR-013": "c08",
+    "AN-P925-ZIR-008": "c05",
+    "AN-P925-ZIR-010": "c10",
+    "AN-P925-COR-005": "c14",
+    "AN-P925-LIS-003": "c03",
+    "AN-P925-ZIR-006": "c04",
+    "AN-P925-ZIR-007": "c77",
+    "CO-P925-GEO-001": "c40",
+    "CO-P925-COR-008": "c15",
+    "CO-P925-COR-009": "c19",
+    "CO-P925-ZIR-006": "c16",
+    "CO-P925-COR-007": "c17",
+    "CO-P925-ZIR-007": "c23",
+    "CO-P925-GOT-001": "c16",
+    "PU-P925-COR-001": "c29",
+    "PU-P925-ZIR-001": "c25",
+    "PU-P925-MAS-002": "c18",
+    "PU-P925-LIS-001": "c36",
+    "PU-P925-PER-001": "c24",
+    "BR-P925-GOT-013": "x0",
+    "BR-P925-GEO-017": "c79",
+    "BR-P925-GEO-019": "c79",
+    "BR-P925-GEO-016": "x0",
+    "BR-P925-LIS-004": "x0",
+    "BR-P925-NAT-001": "c50",
+    "BR-P925-TRI-016": "c45",
+    "BR-P925-GEO-020": "c79",
+    "TO-P925-NAT-001": "c53",
+    "TO-P925-EST-001": "c52",
+    "TO-P925-COR-001": "c54"
+  },
+  "porTipo": {
+    "anel-liso": "c06",
+    "anel-coracao": "c09",
+    "anel-solitario": "c39",
+    "aparador": "c77",
+    "colar-ponto": "c16",
+    "colar-coracao": "c17",
+    "choker": "c17",
+    "corrente": "c18",
+    "pulseira": "c25",
+    "pulseira-coracao": "c29",
+    "pulseira-perolas": "c24",
+    "bracelete": "c36",
+    "argola": "x0",
+    "argola-quadrada": "c79",
+    "argola-gota": "x0",
+    "brinco-trio": "c45",
+    "brinco-folhas": "c50",
+    "tornozeleira-estrela": "c52",
+    "tornozeleira-concha": "c53",
+    "tornozeleira-coracao": "c54"
+  },
+  "secoes": {
+    "hero": {
+      "foto": "c59",
+      "proporcao": "4:5"
+    },
+    "pilha": {
+      "foto": "c57",
+      "proporcao": "4:5"
+    },
+    "como": {
+      "foto": "c69",
+      "proporcao": "4:5"
+    },
+    "carta": {
+      "foto": "c58",
+      "proporcao": "4:5"
+    },
+    "fala": {
+      "foto": "c35",
+      "proporcao": "4:5"
+    },
+    "rodape": {
+      "foto": "c38",
+      "proporcao": "16:9"
+    },
+    "ouro": {
+      "foto": "c66",
+      "proporcao": "1:1"
+    }
+  }
+}

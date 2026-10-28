@@ -3,7 +3,6 @@ import { Link, useParams } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ProductArt } from "@/components/ProductArt";
-import { Mandrel } from "@/components/Mandrel";
 import { CATEGORIES, brl, isRing, useCatalog } from "@/lib/catalog";
 import { useCart } from "@/lib/cart";
 import { useReveal } from "@/lib/useReveal";
@@ -15,7 +14,6 @@ export default function ProductPage() {
   const cart = useCart();
   const product = catalog?.products.find((p) => p.slug === slug);
   const [sku, setSku] = useState<string | null>(null);
-  const [view, setView] = useState<"peca" | "tribule">("peca");
   useReveal([product]);
 
   useEffect(() => {
@@ -49,11 +47,10 @@ export default function ProductPage() {
 
   const ring = isRing(product);
   const sized = product.variants.some((v) => v.size !== "Único");
-  const aro = variant ? parseInt(variant.size) : parseInt(product.variants[0].size);
 
   function add() {
     if (!variant || !product) return;
-    cart.add({ sku: variant.sku, productId: product.id, slug: product.slug, name: product.name, size: variant.size, price: variant.price, max: variant.stock });
+    cart.add({ sku: variant.sku, productId: product.id, slug: product.slug, name: product.name, size: variant.size, price: variant.price, max: variant.stock, photo: product.photo });
     cart.setOpen(true);
   }
 
@@ -62,21 +59,12 @@ export default function ProductPage() {
       <Header />
       <main className="lg:grid lg:grid-cols-[47%_53%]">
         <div className="px-[var(--margin)] lg:sticky lg:top-0 lg:h-svh lg:py-[var(--margin)] lg:pr-0">
-          <div className="relative aspect-square lg:aspect-auto lg:h-full">
-            {view === "tribule" && ring && Number.isFinite(aro) ? (
-              <div className="flex h-full items-center justify-center bg-stage">
-                <Mandrel aro={aro} rings={[product]} className="h-[92%] w-auto" />
-              </div>
-            ) : (
-              <ProductArt product={product} eager />
+          <figure className="relative aspect-square overflow-hidden lg:aspect-auto lg:h-full">
+            <ProductArt product={product} eager sizes="(min-width: 1024px) 47vw, 100vw" />
+            {product.photoIllustrative && (
+              <figcaption className="absolute bottom-3 left-3 bg-[rgba(36,21,15,0.88)] px-3 py-2 t-small text-ink">Foto ilustrativa. A peça vendida é a da descrição.</figcaption>
             )}
-            {ring && Number.isFinite(aro) && (
-              <div className="absolute bottom-3 left-3 flex gap-1" role="group" aria-label="Ver como">
-                <button type="button" aria-pressed={view === "peca"} onClick={() => setView("peca")} className={`btn !min-h-[40px] !px-4 ${view === "peca" ? "" : "btn-quiet"}`}>A peça</button>
-                <button type="button" aria-pressed={view === "tribule"} onClick={() => setView("tribule")} className={`btn !min-h-[40px] !px-4 ${view === "tribule" ? "" : "btn-quiet"}`}>No tribulê</button>
-              </div>
-            )}
-          </div>
+          </figure>
         </div>
 
         <div className="wrap pb-32 pt-10 lg:pl-[var(--pad)] lg:pr-[var(--margin)] lg:pt-[12svh]">
@@ -104,7 +92,7 @@ export default function ProductPage() {
                   </button>
                 ))}
               </div>
-              {ring && <a href={`${import.meta.env.BASE_URL}#aro`} className="link mt-4 inline-block t-small text-muted">Como descobrir meu aro</a>}
+              {ring && <a href={`${import.meta.env.BASE_URL}#aro`} className="link link-solo mt-2 t-small text-muted">Como descobrir meu aro</a>}
             </fieldset>
           )}
 
@@ -130,12 +118,12 @@ export default function ProductPage() {
           {related.length > 0 && (
             <section aria-labelledby="mais-t" className="mt-24">
               <h2 id="mais-t" className="t-lead reveal">Mais {cat?.label.toLowerCase()}</h2>
-              <Link to={`/loja/${product.category}`} className="link mt-2 inline-block t-small text-muted">Ver todos os {cat?.label.toLowerCase()}</Link>
+              <Link to={`/loja/${product.category}`} className="link link-solo t-small text-muted">Ver todos os {cat?.label.toLowerCase()}</Link>
               <ul className="mt-6 grid grid-cols-2 gap-3">
                 {related.map((p, i) => (
                   <li key={p.id} className="reveal" style={{ ["--i" as string]: i }}>
                     <Link to={`/peca/${p.slug}`} className="group block no-underline">
-                      <div className="aspect-square overflow-hidden"><div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.04]"><ProductArt product={p} /></div></div>
+                      <div className="aspect-square overflow-hidden"><div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]"><ProductArt product={p} /></div></div>
                       <p className="mt-3 leading-snug">{p.name}</p>
                       <p className="text-muted tabular">{brl(p.priceFrom)}</p>
                     </Link>

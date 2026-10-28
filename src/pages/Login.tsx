@@ -3,6 +3,7 @@ import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { useAuth, DEMO_CODE } from "@/lib/auth";
 import { PREVIEW_MODE } from "@/config";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 export default function Login() {
   const { user, sendCode, verifyCode } = useAuth();
@@ -15,6 +16,7 @@ export default function Login() {
   const [err, setErr] = useState("");
   const [wait, setWait] = useState(0);
   const codeRef = useRef<HTMLInputElement>(null);
+  usePageTitle("Entrar");
 
   useEffect(() => {
     if (wait <= 0) return;

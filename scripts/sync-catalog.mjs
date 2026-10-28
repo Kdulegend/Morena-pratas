@@ -57,6 +57,15 @@ async function fetchRows() {
 
 const rows = await fetchRows();
 const { products, hidden } = rowsToCatalog(rows);
+
+// Peça sem foto própria na planilha recebe a foto ilustrativa mais parecida (data/fotos.json).
+const fotos = JSON.parse(await readFile("data/fotos.json", "utf8"));
+for (const p of products) {
+  if (p.photo) continue;
+  const key = fotos.pecas[p.id] ?? fotos.porTipo[p.drawing.kind];
+  if (key) { p.photo = `img/${key}.webp`; p.photoIllustrative = true; }
+}
+
 const catalog = { updatedAt: new Date().toISOString(), products };
 await writeFile(OUT, JSON.stringify(catalog, null, 2) + "\n");
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T21:47:02.154Z",
+  "updatedAt": "2026-10-28T22:23:12.998Z",
   "products": [
     {
       "id": "AN-P925-LIS-002",
@@ -8,7 +8,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c12.webp",
       "drawing": {
         "kind": "anel-liso",
         "stone": null
@@ -33,7 +33,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 49.9
+      "priceFrom": 49.9,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-COR-006",
@@ -42,7 +43,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c09.webp",
       "drawing": {
         "kind": "anel-coracao",
         "stone": null
@@ -61,7 +62,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 55
+      "priceFrom": 55,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-012",
@@ -70,7 +72,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/x2.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "vermelho"
@@ -83,7 +85,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 67
+      "priceFrom": 67,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-COR-004",
@@ -92,7 +95,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/x2.webp",
       "drawing": {
         "kind": "anel-coracao",
         "stone": "vermelho"
@@ -105,7 +108,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 69.9
+      "priceFrom": 69.9,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-014",
@@ -114,7 +118,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c65.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "verde"
@@ -127,7 +131,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 69.9
+      "priceFrom": 69.9,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-009",
@@ -136,7 +141,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c39.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "cristal"
@@ -155,7 +160,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 85
+      "priceFrom": 85,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-LIS-001",
@@ -164,7 +170,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c06.webp",
       "drawing": {
         "kind": "anel-liso",
         "stone": null
@@ -177,7 +183,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 85
+      "priceFrom": 85,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ANI-001",
@@ -186,7 +193,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c00.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "cristal"
@@ -199,7 +206,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 85
+      "priceFrom": 85,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-013",
@@ -208,7 +216,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c08.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "cristal"
@@ -221,7 +229,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 87
+      "priceFrom": 87,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-008",
@@ -230,7 +239,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c05.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "cristal"
@@ -243,7 +252,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 89.9
+      "priceFrom": 89.9,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-010",
@@ -252,7 +262,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c10.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "verde"
@@ -265,7 +275,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 89.9
+      "priceFrom": 89.9,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-COR-005",
@@ -274,7 +285,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c14.webp",
       "drawing": {
         "kind": "anel-coracao",
         "stone": "rosa"
@@ -287,7 +298,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 110
+      "priceFrom": 110,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-LIS-003",
@@ -296,7 +308,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c03.webp",
       "drawing": {
         "kind": "anel-liso",
         "stone": null
@@ -309,7 +321,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 110
+      "priceFrom": 110,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-006",
@@ -318,7 +331,7 @@
       "category": "aneis",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c04.webp",
       "drawing": {
         "kind": "anel-solitario",
         "stone": "rosa"
@@ -331,7 +344,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 129.9
+      "priceFrom": 129.9,
+      "photoIllustrative": true
     },
     {
       "id": "AN-P925-ZIR-007",
@@ -340,7 +354,7 @@
       "category": "aparadores",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c77.webp",
       "drawing": {
         "kind": "aparador",
         "stone": "cristal"
@@ -359,7 +373,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 75
+      "priceFrom": 75,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-GEO-001",
@@ -368,7 +383,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c40.webp",
       "drawing": {
         "kind": "colar-ponto",
         "stone": "cristal"
@@ -381,7 +396,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 89.9
+      "priceFrom": 89.9,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-COR-008",
@@ -390,7 +406,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c15.webp",
       "drawing": {
         "kind": "colar-coracao",
         "stone": "verde"
@@ -403,7 +419,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 119.9
+      "priceFrom": 119.9,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-COR-009",
@@ -412,7 +429,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c19.webp",
       "drawing": {
         "kind": "colar-coracao",
         "stone": null
@@ -425,7 +442,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 119.9
+      "priceFrom": 119.9,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-ZIR-006",
@@ -434,7 +452,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c16.webp",
       "drawing": {
         "kind": "colar-ponto",
         "stone": "cristal"
@@ -447,7 +465,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 129.9
+      "priceFrom": 129.9,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-COR-007",
@@ -456,7 +475,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c17.webp",
       "drawing": {
         "kind": "colar-coracao",
         "stone": "cristal"
@@ -469,7 +488,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 129.9
+      "priceFrom": 129.9,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-ZIR-007",
@@ -478,7 +498,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c23.webp",
       "drawing": {
         "kind": "colar-ponto",
         "stone": "cristal"
@@ -491,7 +511,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 129.9
+      "priceFrom": 129.9,
+      "photoIllustrative": true
     },
     {
       "id": "CO-P925-GOT-001",
@@ -500,7 +521,7 @@
       "category": "colares",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c16.webp",
       "drawing": {
         "kind": "colar-ponto",
         "stone": "cristal"
@@ -513,7 +534,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 137
+      "priceFrom": 137,
+      "photoIllustrative": true
     },
     {
       "id": "PU-P925-COR-001",
@@ -522,7 +544,7 @@
       "category": "pulseiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c29.webp",
       "drawing": {
         "kind": "pulseira-coracao",
         "stone": null
@@ -535,7 +557,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 55
+      "priceFrom": 55,
+      "photoIllustrative": true
     },
     {
       "id": "PU-P925-ZIR-001",
@@ -544,7 +567,7 @@
       "category": "pulseiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c25.webp",
       "drawing": {
         "kind": "pulseira",
         "stone": "cristal"
@@ -557,7 +580,8 @@
           "stock": 2
         }
       ],
-      "priceFrom": 59.9
+      "priceFrom": 59.9,
+      "photoIllustrative": true
     },
     {
       "id": "PU-P925-MAS-002",
@@ -566,7 +590,7 @@
       "category": "pulseiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c18.webp",
       "drawing": {
         "kind": "pulseira",
         "stone": null
@@ -579,7 +603,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 67
+      "priceFrom": 67,
+      "photoIllustrative": true
     },
     {
       "id": "PU-P925-LIS-001",
@@ -588,7 +613,7 @@
       "category": "pulseiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c36.webp",
       "drawing": {
         "kind": "bracelete",
         "stone": null
@@ -601,7 +626,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 75
+      "priceFrom": 75,
+      "photoIllustrative": true
     },
     {
       "id": "PU-P925-PER-001",
@@ -610,7 +636,7 @@
       "category": "pulseiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c24.webp",
       "drawing": {
         "kind": "pulseira-perolas",
         "stone": "perola"
@@ -623,7 +649,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 85
+      "priceFrom": 85,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-GOT-013",
@@ -632,7 +659,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/x0.webp",
       "drawing": {
         "kind": "argola-quadrada",
         "stone": null
@@ -645,7 +672,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 45
+      "priceFrom": 45,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-GEO-017",
@@ -654,7 +682,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c79.webp",
       "drawing": {
         "kind": "argola-gota",
         "stone": null
@@ -667,7 +695,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 49.9
+      "priceFrom": 49.9,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-GEO-019",
@@ -676,7 +705,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c79.webp",
       "drawing": {
         "kind": "argola-quadrada",
         "stone": null
@@ -689,7 +718,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 49.9
+      "priceFrom": 49.9,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-GEO-016",
@@ -698,7 +728,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/x0.webp",
       "drawing": {
         "kind": "argola-quadrada",
         "stone": null
@@ -711,7 +741,8 @@
           "stock": 2
         }
       ],
-      "priceFrom": 52
+      "priceFrom": 52,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-LIS-004",
@@ -720,7 +751,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/x0.webp",
       "drawing": {
         "kind": "argola",
         "stone": null
@@ -733,7 +764,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 55
+      "priceFrom": 55,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-NAT-001",
@@ -742,7 +774,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c50.webp",
       "drawing": {
         "kind": "brinco-folhas",
         "stone": null
@@ -755,7 +787,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 79
+      "priceFrom": 79,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-TRI-016",
@@ -764,7 +797,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c45.webp",
       "drawing": {
         "kind": "brinco-trio",
         "stone": "cristal"
@@ -777,7 +810,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 79.9
+      "priceFrom": 79.9,
+      "photoIllustrative": true
     },
     {
       "id": "BR-P925-GEO-020",
@@ -786,7 +820,7 @@
       "category": "brincos",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c79.webp",
       "drawing": {
         "kind": "argola-quadrada",
         "stone": null
@@ -799,7 +833,8 @@
           "stock": 2
         }
       ],
-      "priceFrom": 79.9
+      "priceFrom": 79.9,
+      "photoIllustrative": true
     },
     {
       "id": "TO-P925-NAT-001",
@@ -808,7 +843,7 @@
       "category": "tornozeleiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c53.webp",
       "drawing": {
         "kind": "tornozeleira-concha",
         "stone": null
@@ -821,7 +856,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 75
+      "priceFrom": 75,
+      "photoIllustrative": true
     },
     {
       "id": "TO-P925-EST-001",
@@ -830,7 +866,7 @@
       "category": "tornozeleiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c52.webp",
       "drawing": {
         "kind": "tornozeleira-estrela",
         "stone": null
@@ -843,7 +879,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 75
+      "priceFrom": 75,
+      "photoIllustrative": true
     },
     {
       "id": "TO-P925-COR-001",
@@ -852,7 +889,7 @@
       "category": "tornozeleiras",
       "material": "prata",
       "description": "",
-      "photo": null,
+      "photo": "img/c54.webp",
       "drawing": {
         "kind": "tornozeleira-coracao",
         "stone": null
@@ -865,7 +902,8 @@
           "stock": 1
         }
       ],
-      "priceFrom": 89.9
+      "priceFrom": 89.9,
+      "photoIllustrative": true
     }
   ]
 }

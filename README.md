@@ -24,6 +24,12 @@ Loja de joias em prata 925 e banho de ouro 18k. Anéis, aparadores, colares, pul
 - Custo, fornecedor e datas **nunca** saem da planilha.
 - Colunas opcionais que o site já entende: **Foto (URL)**, **Descrição**, **Ativo no site**.
 
+## Fotos
+
+Enquanto a loja não tem fotos próprias, cada peça usa a foto do Unsplash mais parecida com a descrição (licença Unsplash: uso comercial livre). A escolha fica em `data/fotos.json` (por SKU e, na falta, por tipo de peça) e a origem de cada foto em `data/creditos-fotos.json`. A página da peça avisa "Foto ilustrativa".
+
+Quando a coluna **Foto (URL)** da planilha estiver preenchida, a foto da planilha passa na frente automaticamente.
+
 ## Rodar no computador
 
 ```bash
@@ -61,6 +67,6 @@ O Lovable cria o próprio repositório ao conectar o GitHub. O caminho mais limp
 ## Antes de publicar de verdade
 
 - [ ] WhatsApp real da loja (`VITE_WHATSAPP`)
-- [ ] Fotos das peças na coluna **Foto (URL)** — hoje cada peça aparece desenhada
+- [ ] Fotos das peças na coluna **Foto (URL)** — hoje cada peça usa uma foto ilustrativa do Unsplash (marcada como ilustrativa na página da peça)
 - [ ] Preço de venda nas peças sem preço e quantidade comprada nas peças com saldo negativo
 - [ ] Confirmar textos de exemplo: embalagem para presente inclusa, retirada em Salto sem custo, assinatura da carta

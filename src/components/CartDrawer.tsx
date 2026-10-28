@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "@/lib/cart";
 import { useAuth } from "@/lib/auth";
-import { brl } from "@/lib/catalog";
+import { brl, photoUrl } from "@/lib/catalog";
 import { startCheckout } from "@/lib/checkout";
 import { PREVIEW_MODE } from "@/config";
 
@@ -58,21 +58,24 @@ export function CartDrawer() {
           <>
             <ul className="flex-1 overflow-y-auto px-6">
               {lines.map((l) => (
-                <li key={l.sku} className="mb-2 bg-bg p-4">
+                <li key={l.sku} className="mb-2 flex gap-4 bg-bg p-4">
+                  {l.photo && <img src={photoUrl(l.photo)} alt="" width={72} height={72} className="h-[72px] w-[72px] shrink-0 bg-stage object-cover" />}
+                  <div className="min-w-0 flex-1">
                   <div className="flex justify-between gap-4">
                     <Link to={`/peca/${l.slug}`} onClick={() => setOpen(false)} className="no-underline hover:opacity-75">
                       {l.name}
                     </Link>
                     <span className="tabular whitespace-nowrap">{brl(l.price * l.qty)}</span>
                   </div>
-                  <div className="mt-3 flex items-center justify-between t-small text-muted">
-                    <span>{l.size === "Único" ? "Tamanho único" : `Tamanho ${l.size}`}</span>
+                  <div className="mt-2 flex flex-wrap items-center justify-between gap-y-2 t-small text-muted">
+                    <span className="basis-full">{l.size === "Único" ? "Tamanho único" : `Tamanho ${l.size}`}</span>
                     <div className="flex items-center gap-1">
-                      <button type="button" aria-label={`Tirar uma unidade de ${l.name}`} className="h-9 w-9 bg-surface" onClick={() => setQty(l.sku, l.qty - 1)}>−</button>
+                      <button type="button" aria-label={`Tirar uma unidade de ${l.name}`} className="h-11 w-11 bg-surface" onClick={() => setQty(l.sku, l.qty - 1)}>−</button>
                       <span className="tabular w-8 text-center text-ink" aria-live="polite">{l.qty}</span>
-                      <button type="button" aria-label={`Somar uma unidade de ${l.name}`} className="h-9 w-9 bg-surface disabled:opacity-40" disabled={l.qty >= l.max} onClick={() => setQty(l.sku, l.qty + 1)}>+</button>
+                      <button type="button" aria-label={`Somar uma unidade de ${l.name}`} className="h-11 w-11 bg-surface disabled:opacity-40" disabled={l.qty >= l.max} onClick={() => setQty(l.sku, l.qty + 1)}>+</button>
                       <button type="button" className="nav-link ml-3" onClick={() => remove(l.sku)}>Remover</button>
                     </div>
+                  </div>
                   </div>
                 </li>
               ))}

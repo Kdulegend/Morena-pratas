@@ -89,33 +89,22 @@ button { font: inherit; color: inherit; }
 
 .link { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; transition: opacity 160ms; }
 .link:hover { opacity: 0.75; }
-.nav-link { text-decoration: none; padding: 10px 2px; transition: opacity 160ms; }
+/* Link sozinho (fora de uma frase): área de toque de 44px */
+.link-solo { display: inline-flex; align-items: center; min-height: 44px; }
+.nav-link { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; padding: 0 2px; transition: opacity 160ms; }
 .nav-link:hover { opacity: 0.7; }
 .nav-link[aria-current="page"] { text-decoration: underline; text-underline-offset: 0.3em; }
 
 /* Entradas por seção: título, texto, figura em escada. O conteúdo nunca depende do script. */
 .reveal { opacity: 1; transform: none; }
-.js .reveal:not(.is-in) { opacity: 0; transform: translateY(22px); }
-.js .reveal { transition: opacity 640ms var(--ease-out), transform 640ms var(--ease-out); transition-delay: calc(var(--i, 0) * 80ms); }
-
-/* Assinatura: a marca gigante encolhe um pouco ao sair da primeira tela. */
-@supports (animation-timeline: scroll()) {
-  .mark-scroll { animation: mark-shrink linear both; animation-timeline: scroll(root); animation-range: 0 100vh; transform-origin: right bottom; }
-  @keyframes mark-shrink { to { scale: 0.93; } }
-}
-/* Movimento lento no palco (o "quadro em movimento" da página). */
-.drift { animation: drift 14s ease-in-out infinite alternate; transform-origin: 50% 60%; }
-@keyframes drift { from { transform: rotate(-1.2deg) translateY(4px); } to { transform: rotate(1.2deg) translateY(-6px); } }
-
-.ring-in { animation: ring-in 420ms var(--ease-out) both; }
-@keyframes ring-in { from { opacity: 0; transform: translateY(-36px); } }
+.js .reveal:not(.is-in) { opacity: 0; transform: translateY(12px); }
+.js .reveal { transition: opacity 520ms var(--ease-out), transform 520ms var(--ease-out); transition-delay: calc(var(--i, 0) * 60ms); }
 
 .drawer { transition: transform 280ms var(--ease-out); }
 
 @media (prefers-reduced-motion: reduce) {
   .js .reveal:not(.is-in) { opacity: 1; transform: none; }
   .js .reveal { transition: opacity 200ms; }
-  .drift, .ring-in, .mark-scroll { animation: none !important; }
   .drawer { transition: none; }
 }
 

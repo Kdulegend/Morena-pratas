@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { useAuth } from "@/lib/auth";
 import { supabase } from "@/lib/supabase";
 import { brl } from "@/lib/catalog";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 type Order = { id: string; created_at: string; status: string; total: number; items: { name: string; size: string; qty: number }[] };
 const STATUS: Record<string, string> = { pending: "Aguardando pagamento", approved: "Pago", in_process: "Em análise", rejected: "Recusado", cancelled: "Cancelado", shipped: "Enviado", delivered: "Entregue" };
@@ -12,6 +13,7 @@ const STATUS: Record<string, string> = { pending: "Aguardando pagamento", approv
 export default function Account() {
   const { user, ready, signOut } = useAuth();
   const [orders, setOrders] = useState<Order[] | null>(null);
+  usePageTitle("Sua conta");
 
   useEffect(() => {
     if (!user) return;
