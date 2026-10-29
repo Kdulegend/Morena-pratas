@@ -19,15 +19,13 @@ export function CartButton({ className = "" }: { className?: string }) {
 }
 
 /** Barra simples: marca, poucos links, uma ação. Na home a marca não aparece aqui (ela está gigante embaixo). */
-export function Header({ home = false }: { home?: boolean }) {
+export function Header() {
   const { user } = useAuth();
   return (
-    <header className={`wrap relative z-20 flex items-center gap-6 py-5 ${home ? "justify-end" : "justify-between"}`}>
-      {!home && (
-        <Link to="/" className="nav-link t-lead">
-          morena pratas
-        </Link>
-      )}
+    <header className="wrap relative z-20 flex items-center justify-between gap-6 border-b border-[#ececec] py-4">
+      <Link to="/" className="nav-link t-lead">
+        morena pratas
+      </Link>
       <nav aria-label="Principal" className="flex items-center gap-5 t-small sm:gap-7" >
         <div className="hidden items-center gap-6 md:flex">
           {LINKS.map((l) => (

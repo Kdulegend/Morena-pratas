@@ -2,31 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Morena Pratas — tokens.
-   Cor tirada do próprio assunto: o fundo é o tom "morena" (cacau escuro), a tinta é a prata,
-   o ouro aparece só onde a peça é banhada. Proporções do palete sorteado: um fundo, uma tinta, um campo claro. */
+/* Morena Pratas — tokens. Branco, tinta escura, sem cor de destaque. */
 :root {
-  --bg: #24150f;
-  --surface: #2e1c14;
-  --sheet: #f7f7f5;
-  --stage: #1a0f0a;
-  --ink: #efefec;
-  --muted: #c9bcb0;
-  --accent: #efefec;
-  --accent-ink: #24150f;
-  --gold: #e0bd6b;
-  --field-1: #e4e4e1;
-  --field-1-ink: #24150f;
-  --field-1-muted: #574a42;
-
-  /* tons chapados para os desenhos das peças (sem degradê) */
-  --silver-1: #f4f3f0;
-  --silver-2: #d6d5d1;
-  --silver-3: #a3a29e;
-  --silver-4: #6c6b67;
-  --gold-1: #f5dfa2;
-  --gold-2: #e0bd6b;
-  --gold-3: #b48c38;
+  --bg: #ffffff;
+  --surface: #f4f4f4;
+  --sheet: #ffffff;
+  --stage: #f4f4f4;
+  --ink: #1a1a1a;
+  --muted: #5f5f5f;
+  --accent: #1a1a1a;
+  --accent-ink: #ffffff;
+  --gold: #8a6a1f;
+  --field-1: #f4f4f4;
+  --field-1-ink: #1a1a1a;
+  --field-1-muted: #5f5f5f;
 
   --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
   --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
@@ -79,13 +68,13 @@ button { font: inherit; color: inherit; }
   font-weight: 600; text-decoration: none; border: 0; cursor: pointer;
   transition: transform 160ms var(--ease-out), background-color 160ms var(--ease-out);
 }
-.btn:hover { background: #ffffff; }
+.btn:hover { background: #000000; }
 .btn:active { transform: scale(0.97); }
 .btn[disabled] { opacity: 0.45; cursor: not-allowed; transform: none; }
 .btn-quiet { background: var(--surface); color: var(--ink); }
-.btn-quiet:hover { background: #3b2519; }
+.btn-quiet:hover { background: #e8e8e8; }
 .on-field .btn { background: var(--field-1-ink); color: var(--field-1); }
-.on-field .btn:hover { background: #3a2318; }
+.on-field .btn:hover { background: #000000; }
 
 .link { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; transition: opacity 160ms; }
 .link:hover { opacity: 0.75; }
@@ -97,7 +86,7 @@ button { font: inherit; color: inherit; }
 
 /* Entradas por seção: título, texto, figura em escada. O conteúdo nunca depende do script. */
 .reveal { opacity: 1; transform: none; }
-.js .reveal:not(.is-in) { opacity: 0; transform: translateY(12px); }
+.js .reveal:not(.is-in) { opacity: 1; }
 .js .reveal { transition: opacity 520ms var(--ease-out), transform 520ms var(--ease-out); transition-delay: calc(var(--i, 0) * 60ms); }
 
 .drawer { transition: transform 280ms var(--ease-out); }
@@ -112,7 +101,7 @@ button { font: inherit; color: inherit; }
 .field-input {
   width: 100%; min-height: 52px; padding: 0 16px;
   background: var(--surface); color: var(--ink);
-  border: 1px solid #5a4134; border-radius: 0; font: inherit;
+  border: 1px solid #c8c8c8; border-radius: 0; font: inherit;
 }
 .field-input:focus { outline: 2px solid var(--ink); outline-offset: 0; border-color: transparent; }
 .otp-input { letter-spacing: 0.5em; font-size: 1.75rem; text-align: center; font-variant-numeric: tabular-nums; }

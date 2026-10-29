@@ -4,7 +4,6 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ProductArt } from "@/components/ProductArt";
 import { CATEGORIES, MATERIALS, brl, useCatalog, type CategoryId, type Material } from "@/lib/catalog";
-import { useReveal } from "@/lib/useReveal";
 import { usePageTitle } from "@/lib/usePageTitle";
 import { waLink } from "@/config";
 
@@ -13,7 +12,6 @@ export default function Shop() {
   const [params, setParams] = useSearchParams();
   const material = (params.get("material") as Material | null) ?? null;
   const { catalog, error } = useCatalog();
-  useReveal([catalog, categoria, material]);
 
   const cat = CATEGORIES.find((c) => c.id === categoria);
   const list = useMemo(
@@ -35,7 +33,7 @@ export default function Shop() {
       <Header />
       <main className="wrap pb-40 pt-10 md:pt-16">
         <div className="grid gap-8 md:grid-cols-12 md:items-end">
-          <h1 className="md:col-span-6" style={{ fontSize: "clamp(3.5rem, 8.4vw, 9rem)", lineHeight: 0.9, letterSpacing: "-0.035em" }}>{title}</h1>
+          <h1 className="t-head md:col-span-6">{title}</h1>
           <p className="t-lead max-w-[30ch] md:col-span-6 md:col-start-7 md:justify-self-end">
             Joias em prata 925 e banho de ouro 18k. {list.length} {list.length === 1 ? "peça disponível" : "peças disponíveis"} agora. Se está aqui, está na gaveta.
           </p>
@@ -86,10 +84,10 @@ export default function Shop() {
           {list.map((p, i) => {
             const sizes = p.variants.filter((v) => v.size !== "Único").map((v) => v.size);
             return (
-              <li key={p.id} className="reveal" style={{ ["--i" as string]: i % 4 }}>
+              <li key={p.id} className="reveal">
                 <Link to={`/peca/${p.slug}`} className="group block no-underline">
                   <div className="aspect-square overflow-hidden">
-                    <div className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                    <div className="h-full w-full transition-transform duration-500 ease-out ">
                       <ProductArt product={p} />
                     </div>
                   </div>
